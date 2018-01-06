@@ -19,20 +19,5 @@ Checkout the [Projects](https://github.com/RESTFest/videos.restfest.org/projects
   * no API (yet), but does have Webhooks and data exports
 * Twitter, Buffer, etc? - for promoting videos post-event and throughout the year
 
-## Development
-
-The site uses [Jekyll](http://jekyllrb.com/) to generate a static,
-[Semantic-UI](http://semantic-ui.com/) based site.
-
-You'll need [Ruby](https://www.ruby-lang.org/).
-
-```
-$ gem install jekyll bundler
-$ bundle install # the jekyll bits
-$ npm i # the semantic-ui bits
-$ npm run build # once. not needed again unless customizing semantic.css
-$ npm run serve # which runs `bundle exec jekyll serve --incremental`
-```
-
 ## License
 Apache License 2.0

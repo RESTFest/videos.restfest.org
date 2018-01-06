@@ -1,0 +1,15 @@
+[
+  {
+    "name": "BigBlueHat",
+    "homepage": "http://bigbluehat.com/",
+    "github": "BigBlueHat",
+    "projects": [{
+      "name": "Page Notes",
+      "repo": "http://github.com/bigbluehat/page-notes",
+      "specs": [{
+        "name": "Web Annotation Data Model",
+        "url": "http://www.w3.org/TR/annotation-model/"
+      }]
+    }]
+  }
+]

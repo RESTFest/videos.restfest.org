@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+---
+
+<div class="ui green icon message">
+  <i class="calendar icon"></i>
+  <div class="content">
+    <div class="header">Have you been waiting all year to get to that thing?</div>
+    Now's the time! <a href="/about">Find out more.</a>
+  </div>
+</div>
+
+{% include 31boxes.html %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="ui vertical segment">
+    <h1>
+      <a class="ui green header" href="{{ post.url }}">
+        {{ post.title }}
+        <span class="sub header">{{ post.date | date_to_string }}</span>
+      </a>
+    </h1>
+
+    {{ post.content | markdownify }}
+  </div>
+  {% endfor %}
+</div>
+
+{% if paginator.next_page or paginator.previous_page %}
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "BigBlueHat",
+    "homepage": "http://bigbluehat.com/",
+    "github": "BigBlueHat",
+    "projects": [
+      {
+        "name": "Devcember",
+        "repo": "http://github.com/devcember/devcember.github.io",
+        "specs": [
+          {
+            "name": "RDFa Lite",
+            "url": "https://www.w3.org/TR/rdfa-lite/"
+          }
+        ]
+      },
+      {
+        "name": "Page Notes",
+        "repo": "http://github.com/bigbluehat/page-notes",
+        "specs": [
+          {
+            "name": "Web Annotation Data Model",
+            "url": "http://www.w3.org/TR/annotation-model/"
+          }
+        ]
+      },
+      {
+        "name": "Apache Annotator",
+        "repo": "http://github.com/apache/incubator-annotator",
+        "specs": [
+          {
+            "name": "Web Annotation Data Model",
+            "url": "http://www.w3.org/TR/annotation-model/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Randall Leeds",
+    "homepage": "http://randall.bleeds.info/",
+    "github": "tilgovi",
+    "projects": [
+      {
+        "name": "Apache Annotator",
+        "repo": "http://github.com/apache/incubator-annotator",
+        "specs": [
+          {
+            "name": "Web Annotation Data Model",
+            "url": "http://www.w3.org/TR/annotation-model/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rhiaro",
+    "homepage": "https://rhiaro.co.uk",
+    "github": "rhiaro",
+    "projects": [
+      {
+        "name": "Sloph",
+        "repo": "http://github.com/rhiaro/sloph",
+        "specs": [
+          {
+            "name": "ActivityPub",
+            "url": "http://www.w3.org/TR/activitypub/"
+          },
+          {
+            "name": "Linked Data Notifications",
+            "url": "http://www.w3.org/TR/ldn/"
+          }
+        ]
+      }
+    ]
+  }
+]

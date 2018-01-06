@@ -1,0 +1,24 @@
+{% capture currentDay %}
+  {{ "now" | date: "%e" }}
+{% endcapture %}
+{% assign today = currentDay | minus: 0 %}
+{% assign hacktivity = site.data.hacktivity.__all__ %}
+<div class="ui seven cards">
+  {% for i in (26..30) %}
+  <div class="card" style="opacity: 0.5">
+    <div class="meta">{{i}}</div>
+    <div class="content"></div>
+  </div>
+  {% endfor %}
+  {% for i in (1..31) %}
+  {% capture n %}{{ i }}{% endcapture %}
+  <div class="{% if i < today %}green {% endif %}{% if i == today %}orange {% endif %}card">
+    <div class="meta">{{i}}</div>
+    <div class="content">
+      {% for person in hacktivity[n] %}
+      <img class="ui avatar image" alt="{{person[1].login}}" src="{{person[1].avatar_url}}">
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,35 @@
+{
+  "name": "devcember.com",
+  "version": "0.0.1",
+  "description": "Devcember Jekyll site",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "node-fetch": "^1.7.3",
+    "semantic-ui": "^2.2.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd lib/semantic/ && gulp build",
+    "serve": "bundle exec jekyll serve --incremental",
+    "hacktivity": "node scripts/collect.js && node scripts/hacktivity.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WileyLabs/wileylabs.github.io.git"
+  },
+  "keywords": [
+    "jekyll",
+    "semantic-ui"
+  ],
+  "author": "BigBlueHat <byoung@bigbluehat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WileyLabs/wileylabs.github.io/issues"
+  },
+  "homepage": "https://github.com/WileyLabs/wileylabs.github.io#readme"
+}
