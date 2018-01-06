@@ -11,5 +11,13 @@ We'd like this to be a GitHub Pages hosted static site with pages that "wrap" ea
 
 Checkout the [Projects](https://github.com/RESTFest/videos.restfest.org/projects) and [Issues](https://github.com/RESTFest/videos.restfest.org/issues) areas of the [GitHub repo](https://github.com/RESTFest/videos.restfest.org) for more actionable info.
 
+## Tools
+
+* [Vimeo Videos API](https://developer.vimeo.com/api) - specifically the [/users/{user_id}/videos](https://developer.vimeo.com/api/endpoints/videos#GET/users/{user_id}/videos endpoint)
+  * all Vimeo API requests need at least a public access token
+* [Ti.to](https://ti.to/) - for attendee/speaker info
+  * no API (yet), but does have Webhooks and data exports
+* Twitter, Buffer, etc? - for promoting videos post-event and throughout the year
+
 ## License
 Apache License 2.0
