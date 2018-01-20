@@ -1,7 +1,9 @@
-<nav class="ui visible left vertical inverted green sidebar menu">
-  <a class="ui image" href="/" style="background: white">
-    <img src="/public/square.png" alt="{{ site.title }}" />
-  </a>
+<nav class="ui visible left vertical white sidebar menu">
+  <div class="ui basic segment">
+    <a class="ui image" href="/" style="background: white">
+      <img src="/public/logo.png" alt="{{ site.title }}" />
+    </a>
+  </div>
 
   {% comment %}
     The code below dynamically generates a sidebar nav of pages with
@@ -17,10 +19,10 @@
     {% endif %}
   {% endfor %}
 
-  <a class="item{% if page.url == site.baseurl %} active{% endif %}" href="/">Posts</a>
+  <a class="item{% if page.url == site.baseurl %} active{% endif %}" href="/">Years</a>
 
   {% assign posts_list = site.posts %}
-  <nav reversed class="ui green inverted vertical menu">
+  <nav reversed class="ui vertical secondary menu">
     {% for node in posts_list %}
       {% if node.title != null %}
         {% if node.layout == "post" %}
