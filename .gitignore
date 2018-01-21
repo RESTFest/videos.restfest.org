@@ -1,3 +1,6 @@
+# Ignore Vimeo API creds
+vimeo.json
+
 # Ignore docs files
 _gh_pages
 _site
