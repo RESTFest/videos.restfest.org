@@ -43,6 +43,7 @@ function outputVideosAsYAML(body) {
   body.data.forEach((item) => {
     // YAML output
     let output = `---
+layout: video
 title: ${item.name}
 `;
     if ('description' in item && null !== item.description) {
