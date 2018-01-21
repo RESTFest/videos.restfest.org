@@ -25,6 +25,10 @@ repository:       restfest/videos.restfest.org
 
 paginate:         5
 
+collections:
+  videos:
+    output: true
+
 # Custom vars
 version:          2.1.0
 
@@ -48,3 +52,11 @@ exclude:
   - LICENSE
   - README
   - scripts/
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    tag: tag-archive

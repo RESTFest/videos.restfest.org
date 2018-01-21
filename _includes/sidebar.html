@@ -20,6 +20,13 @@
   {% endfor %}
 
   <a class="item{% if page.url == site.baseurl %} active{% endif %}" href="/">Years</a>
+  <nav reversed class="ui vertical secondary menu">
+  {% for video in site.videos %}
+  <li class="item">
+    <a class="sidebar-nav-item{% if page.url == video.url %} active{% endif %}" href="{{ video.url }}">{{ video.title }}</a></li>
+  {% endfor %}
+  </nav>
+
 
   {% assign posts_list = site.posts %}
   <nav reversed class="ui vertical secondary menu">
