@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2015 \\ Mehdi Medjaoui \\ FiveInFive",
+    "description": "Five In Five Talk\nMehdi Medjaoui\n19 SEPTEMBER 2015\n\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+    "duration": 438,
+    "width": 1280,
+    "language": "en",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/148385480?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Mehdi Medjaoui \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2015-12-09T17:53:18+00:00",
+    "modified_time": "2018-04-13T13:41:06+00:00",
+    "release_time": "2015-12-09T17:53:18+00:00",
+    "license": "by-nc-sa",
+    "@id": "/videos/hydra/148385480.jsonld"
+}

@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2012 \\ Dan Abend \\ FiveInFive",
+    "description": "TITLE: Managing Your Twittersphere",
+    "duration": 834,
+    "width": 640,
+    "height": 360,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/49503459?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Dan Abend \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2012-09-15T12:31:04+00:00",
+    "modified_time": "2017-10-02T13:31:29+00:00",
+    "release_time": "2012-09-15T12:31:04+00:00",
+    "license": "by-nc-sa",
+    "@id": "/videos/hydra/49503459.jsonld"
+}

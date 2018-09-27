@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2012 \\ Pat Cappelaere I",
+    "description": "TITLE: User Stories and Acceptance Criteria for RESTful Services: RIP\n\nDESCRIPTION: In order to start the draft of a policy for RESTFul services, participants of this OGC Standards Working Group embarked on the development of RIP, a RESTful service acaluator that assesses and report on RESTful services against a continuously updated set of user stories and acceptance criteria. Many patterns are starting to emerge but there is more work to do especially in testing upcoming Hypermedia API's. RIP is certainly a great learning tool and provides a good insight in the evolution of RESTful services. It may be pointing to a set of best practices that could be used at the enterprise level.\n\nPRESENTER: Pat Cappelaere is an independant Software Architect. His current work involves the development of the NASA SensorWeb, which provides seamless access to satellites and automatically generated products. Pat is also chairing the Open Geospatial Consortium \"RESTFul Services Policy\" Standards Working Group. He has been involved with many open source projects including Community Mapbuilder, Rools, and now RIP.",
+    "duration": 3970,
+    "width": 640,
+    "height": 360,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/49484939?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Pat Cappelaere I\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2012-09-14T23:00:31+00:00",
+    "modified_time": "2018-09-06T15:53:00+00:00",
+    "release_time": "2012-09-14T23:00:31+00:00",
+    "license": "by-nc-sa",
+    "@id": "/videos/hydra/49484939.jsonld"
+}

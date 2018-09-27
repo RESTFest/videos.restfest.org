@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "Irina Bolychevsky \\ Keynote \\ REST Fest 2017",
+    "description": "sponsored by Protocol Labs https://protocol.ai/\n\nThe information age is transforming how we work, live and interact. We are all increasingly dependent on digital services to travel around, decide where to eat, learn, share info and maintain our public identity.\n\nAnd yet, digital services are increasingly provided by a diminishing group of super monopolies, whose real customers are advertisers. Or else, services spring up, only to disappear or change once acquired, our data lost.\n\nHow do realise the vision for a resilient and open decentralised web? Can and should it be the default? Irina will talk about the motivations behind the redecentralise movement, some projects leading the charge and what challenges we could be tackling next.",
+    "duration": 4143,
+    "width": 1920,
+    "language": "en",
+    "height": 1080,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/235384025?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Irina Bolychevsky \\ Keynote \\ REST Fest 2017\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2017-09-25T17:34:57+00:00",
+    "modified_time": "2018-09-23T12:05:16+00:00",
+    "release_time": "2017-09-25T17:34:57+00:00",
+    "license": "by-nc-sa",
+    "@id": "/videos/hydra/235384025.jsonld"
+}
