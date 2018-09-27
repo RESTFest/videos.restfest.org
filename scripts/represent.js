@@ -3,6 +3,19 @@ var util = require('util')
 var Representor = require('representor').Representor;
 
 fs.readdir('./_data/videos', function (errors, filenames) {
+    var halVideoLinks = filenames.map(function (filename) {
+        return { href: `/videos/hal/${filename}` };
+    });
+
+    var hal = {
+        _links: {
+            self: '/videos/hal/index.json',
+            'http://videos.restfest.org/rels/video': halVideoLinks
+        }
+    };
+
+    fs.writeFile('./_videos/hal/index.json', JSON.stringify(hal, null, 4), function () { });
+
     filenames.forEach(function (filename) {
         fs.readFile(`./_data/videos/${filename}`, function (readError, content) {
             var videoId = filename.split('.')[0];
