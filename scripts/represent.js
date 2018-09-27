@@ -75,7 +75,7 @@ fs.readdir('./_data/videos', function (errors, filenames) {
 
             var hal = adapters.toHal(repr);
 
-            fs.writeFileSync(`./_videos/hal/${videoId}.json`, JSON.stringify(hal, null, 4));
+            fs.writeFileSync(`./_videos/hal/${videoId}.json`, JSON.stringify(hal, null, 4) + "\n");
         });
     });
 });
