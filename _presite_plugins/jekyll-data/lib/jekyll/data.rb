@@ -6,4 +6,4 @@ module Jekyll
 end
 
 require "jekyll/commands/data.rb"
-require "jekyll/commands/speakers.rb"
+require "jekyll/commands/people.rb"

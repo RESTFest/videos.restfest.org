@@ -3,10 +3,12 @@ module Jekyll
     class Cfp < Command
       class << self
         def init_with_program(prog)
-          prog.command(:speakers) do |c|
+          prog.command(:persons) do |c|
             c.action do |args, options|
+              #Jekyll.logger.info(options);
+              processor = People.new( options["source"], options["destination"])
               for wiki in args do
-                Jekyll.logger.info(wiki)
+                processor.capture(wiki)
               end
             end
           end
