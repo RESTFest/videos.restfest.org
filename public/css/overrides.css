@@ -1,0 +1,17 @@
+.full.height {
+  display: flex;
+  flex-direction: row;
+}
+
+.full.height > .toc {
+  position: relative;
+  z-index: 1;
+  background-color: #1b1c1d;
+  width: 260px;
+  flex: 0 0 auto;
+}
+
+.full.height > .article {
+  flex: 1 1 auto;
+  min-width: 0px;
+}

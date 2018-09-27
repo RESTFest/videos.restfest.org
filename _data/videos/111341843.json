@@ -1,0 +1,73 @@
+{
+  "uri": "/videos/111341843",
+  "name": "REST Fest 2014 \\ Sean Cribbs \\ FiveInFive",
+  "description": "Five In Five Talk\n\"Niggling Conneg\"\nSean Cribbs\n27 SEPTEMBER 2014\n\nVIDEO SPONSORED BY LAYER 7 TECHNOLOGIES: layer7tech.com",
+  "link": "https://vimeo.com/111341843",
+  "duration": 782,
+  "width": 1280,
+  "language": "en-US",
+  "height": 720,
+  "embed": {
+    "html": "<iframe src=\"https://player.vimeo.com/video/111341843?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2014 \\ Sean Cribbs \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  },
+  "created_time": "2014-11-09T15:53:03+00:00",
+  "modified_time": "2017-10-02T13:31:29+00:00",
+  "release_time": "2014-11-09T15:53:03+00:00",
+  "license": "by-nc-sa",
+  "pictures": {
+    "uri": "/videos/111341843/pictures/495929490",
+    "active": true,
+    "type": "custom",
+    "sizes": [
+      {
+        "width": 100,
+        "height": 75,
+        "link": "https://i.vimeocdn.com/video/495929490_100x75.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/495929490_200x150.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 295,
+        "height": 166,
+        "link": "https://i.vimeocdn.com/video/495929490_295x166.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/495929490_640x360.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "link": "https://i.vimeocdn.com/video/495929490_960x540.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/495929490_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/495929490_1920x1080.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/495929490_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F495929490_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }
+    ],
+    "resource_key": "7b47cb2f8b0d72cf42cb017692c04549961bfa81"
+  }
+}

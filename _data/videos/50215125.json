@@ -1,0 +1,67 @@
+{
+  "uri": "/videos/50215125",
+  "name": "REST Fest 2012 \\ Stuart Charlton",
+  "description": "TITLE: Linking Data and Actions on the Web\n\nPRESENTER: Stu Charlton is an independent consultant in the areas of RESTful systems integration, cloud computing, and agile development. He maintains an occasionally updated blog on REST and the Cloud, called \"Stu Says Stuff.\" Formerly he was the General Manager of IT Infrastructure & Operations at Canadian Pacific, the CTO of Elastra, and an Enterprise Architect at BEA Systems. Currently Stu is applying REST to legacy systems modernization and integration efforts in the railway industry at Canadian Pacific.",
+  "link": "https://vimeo.com/restfest/rf2012charlton",
+  "duration": 3839,
+  "width": 640,
+  "language": null,
+  "height": 360,
+  "embed": {
+    "html": "<iframe src=\"https://player.vimeo.com/video/50215125?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Stuart Charlton\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+  },
+  "created_time": "2012-09-26T12:57:29+00:00",
+  "modified_time": "2018-01-03T18:37:39+00:00",
+  "release_time": "2012-09-26T12:57:29+00:00",
+  "license": "by-nc-sa",
+  "pictures": {
+    "uri": "/videos/50215125/pictures/346093947",
+    "active": true,
+    "type": "custom",
+    "sizes": [
+      {
+        "width": 100,
+        "height": 75,
+        "link": "https://i.vimeocdn.com/video/346093947_100x75.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/346093947_200x150.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 295,
+        "height": 166,
+        "link": "https://i.vimeocdn.com/video/346093947_295x166.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 640,
+        "height": 363,
+        "link": "https://i.vimeocdn.com/video/346093947_640x363.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_640x363.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 960,
+        "height": 545,
+        "link": "https://i.vimeocdn.com/video/346093947_960x545.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_960x545.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 726,
+        "link": "https://i.vimeocdn.com/video/346093947_1280x726.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_1280x726.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1920,
+        "height": 1089,
+        "link": "https://i.vimeocdn.com/video/346093947_1920x1089.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F346093947_1920x1089.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }
+    ],
+    "resource_key": "79e64d000d80c7d46391ad047256016da35c472e"
+  }
+}

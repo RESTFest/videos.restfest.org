@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="ui basic segment">
+  <h1 class="ui green header">
+    {{ page.title }}
+    <span class="sub header">{{ page.date | date_to_string }}</span>
+  </h1>
+  {{ content }}
+</div>
+
+{% if site.related_posts.size > 0 %}
+<div class="ui basic segment">
+  <h2 class="ui green small header">Related Posts</h2>
+  <div class="ui vertical fluid menu">
+    {% for post in site.related_posts limit:3 %}
+      <div class="link item">
+        <a class="ui header" href="{{ post.url }}">
+          {{ post.title }}
+          <small class="sub header">{{ post.date | date_to_string }}</small>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

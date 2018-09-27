@@ -1,0 +1,41 @@
+<nav class="ui visible left vertical white sidebar menu">
+  <div class="ui basic segment">
+    <a class="ui image" href="/" style="background: white">
+      <img src="/public/logo.png" alt="{{ site.title }}" />
+    </a>
+  </div>
+
+  {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `layout: page` in the front-matter. See readme for usage.
+  {% endcomment %}
+
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <a class="item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  <a class="item{% if page.url == site.baseurl %} active{% endif %}" href="/">Years</a>
+  <nav reversed class="ui vertical secondary menu">
+  {% for video in site.videos %}
+  <li class="item">
+    <a class="sidebar-nav-item{% if page.url == video.url %} active{% endif %}" href="{{ video.url }}">{{ video.title }}</a></li>
+  {% endfor %}
+  </nav>
+
+
+  {% assign posts_list = site.posts %}
+  <nav reversed class="ui vertical secondary menu">
+    {% for node in posts_list %}
+      {% if node.title != null %}
+        {% if node.layout == "post" %}
+        <li class="item"><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </nav>
+</nav>
