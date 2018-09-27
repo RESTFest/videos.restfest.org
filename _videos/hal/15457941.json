@@ -6,10 +6,25 @@
     "language": null,
     "height": 224,
     "embed": {
-        "html": "<iframe src=\"https://player.vimeo.com/video/15457941?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"400\" height=\"224\" frameborder=\"0\" title=\"Information Architecture\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+        "html": "<iframe src=\"https://player.vimeo.com/video/15457941?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"400\" height=\"224\" frameborder=\"0\" title=\"Information Architecture\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
     },
     "created_time": "2010-10-01T14:40:58+00:00",
-    "modified_time": "2014-09-28T17:12:31+00:00",
+    "modified_time": "2018-04-06T08:36:30+00:00",
     "release_time": "2010-10-01T14:40:58+00:00",
     "license": null,
     "_links": {
@@ -18,28 +33,91 @@
         }
     },
     "_embedded": {
-        "http://videos.restfest.org/rels/pictures": {
-            "active": true,
-            "type": "custom",
-            "_links": {
-                "self": {
-                    "href": "/videos/15457941/pictures/93137957"
+        "http://videos.restfest.org/rels/picture": [
+            {
+                "width": 100,
+                "height": 75,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_100x75.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
                 }
             },
-            "_embedded": {
-                "http://videos.restfest.org/rels/size": {
-                    "width": 1920,
-                    "height": 1074,
-                    "_links": {
-                        "self": {
-                            "href": "https://i.vimeocdn.com/video/93137957_1920x1074.jpg?r=pad"
-                        },
-                        "http://videos.restfest.org/rels/picture_with_play_button": {
-                            "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_1920x1074.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
-                        }
+            {
+                "width": 200,
+                "height": 150,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_200x150.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 295,
+                "height": 166,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_295x166.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 640,
+                "height": 358,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_640x358.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_640x358.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 960,
+                "height": 537,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_960x537.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_960x537.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 1280,
+                "height": 716,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_1280x716.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_1280x716.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 1920,
+                "height": 1074,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/93137957_1920x1074.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F93137957_1920x1074.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
                     }
                 }
             }
-        }
+        ]
     }
 }
