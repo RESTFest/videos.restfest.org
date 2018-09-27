@@ -1,6 +1,8 @@
 {
     "_links": {
-        "self": "/videos/hal/index.json",
+        "self": {
+            "href": "/videos/hal/index.json"
+        },
         "http://videos.restfest.org/rels/video": [
             {
                 "href": "/videos/hal/107304324.json"

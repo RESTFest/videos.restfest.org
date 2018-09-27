@@ -4,8 +4,8 @@ var Representor = require('representor').Representor;
 
 // Build HAL representations from raw video files
 fs.readdir('./_data/raw/vimeo', function (errors, filenames) {
-    createHalIndex(filenames);
-    createHalFiles(filenames);
+    createIndex(filenames);
+    createVideoFiles(filenames);
 });
 
 var adapters = {
@@ -56,22 +56,27 @@ var adapters = {
     }
 }
 
-function createHalIndex(filenames) {
-    var halVideoLinks = filenames.map(function (filename) {
-        return { href: `/videos/hal/${filename}` };
+function createIndex(filenames) {
+    var repr = new Representor();
+
+    repr.links.add({
+        rel: 'self',
+        href: '/videos/hal/index.json'
     });
 
-    var hal = {
-        _links: {
-            self: '/videos/hal/index.json',
-            'http://videos.restfest.org/rels/video': halVideoLinks
-        }
-    };
+    filenames.forEach(function (filename) {
+        repr.links.add({
+            rel: 'http://videos.restfest.org/rels/video',
+            href: `/videos/hal/${filename}`
+        })
+    });
+
+    var hal = adapters.toHal(repr);
 
     fs.writeFile('./_videos/hal/index.json', JSON.stringify(hal, null, 4), function () { });
 }
 
-function createHalFiles(filenames) {
+function createVideoFiles(filenames) {
     filenames.forEach(function (filename) {
         fs.readFile(`./_data/raw/vimeo/${filename}`, function (readError, content) {
             var videoId = filename.split('.')[0];
