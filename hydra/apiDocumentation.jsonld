@@ -1,7 +1,7 @@
 {
-  "@id": "http://localhost:54469/doc",
+  "@id": "http://localhost:4000/hydra/apiDocumentation.jsonld",
   "@type": "ApiDocumentation",
-  "entrypoint": "http://dummuy/url",
+  "entrypoint": "http://localhost:4000/hydra/entrypoint.jsonld",
   "supportedClass": [
     {
       "@id": "http://videos.resftest.org/api/Video",
@@ -88,6 +88,32 @@
         },
         {
           "@type": "SupportedProperty",
+          "description": "The width property",
+          "property": {
+            "@id": "http://schema.org/width",
+            "@type": "rdf:Property",
+            "range": "xsd:int"
+          },
+          "readable": true,
+          "required": false,
+          "title": "width",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The height property",
+          "property": {
+            "@id": "http://schema.org/height",
+            "@type": "rdf:Property",
+            "range": "xsd:int"
+          },
+          "readable": true,
+          "required": false,
+          "title": "height",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
           "description": "The pictures property",
           "property": {
             "@id": "http://schema.org/pictures",
@@ -97,6 +123,19 @@
           "readable": true,
           "required": false,
           "title": "pictures",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The license property",
+          "property": {
+            "@id": "http://schema.org/license",
+            "@type": "rdf:Property",
+            "range": "Resource"
+          },
+          "readable": true,
+          "required": false,
+          "title": "license",
           "writeable": false
         },
         {
@@ -138,7 +177,41 @@
       "@id": "http://videos.resftest.org/api/PictureSize",
       "@type": "Class",
       "description": "The Size class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The width property",
+          "property": {
+            "@id": "http://schema.org/width",
+            "@type": "rdf:Property",
+            "range": "http://schema.org/QuantitativeValue"
+          },
+          "readable": true,
+          "required": false,
+          "title": "width",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The height property",
+          "property": {
+            "@id": "http://schema.org/height",
+            "@type": "rdf:Property",
+            "range": "http://schema.org/QuantitativeValue"
+          },
+          "readable": true,
+          "required": false,
+          "title": "height",
+          "writeable": false
+        }
+      ],
       "title": "Size"
+    },
+    {
+      "@id": "http://schema.org/QuantitativeValue",
+      "@type": "Class",
+      "description": "The QuantitativeValue class",
+      "title": "QuantitativeValue"
     },
     {
       "@id": "hydra:Collection",

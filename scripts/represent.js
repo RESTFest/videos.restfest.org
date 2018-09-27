@@ -74,8 +74,10 @@ fs.readdir('./_data/videos', function (errors, filenames) {
             });
 
             var hal = adapters.toHal(repr);
+            var hydra = adapters.toHydra(repr);
 
             fs.writeFileSync(`./_videos/hal/${videoId}.json`, JSON.stringify(hal, null, 4) + "\n");
+            fs.writeFileSync(`./hydra/videos/${videoId}.jsonld`, JSON.stringify(hydra, null, 4) + "\n");
         });
     });
 });
@@ -101,5 +103,41 @@ var adapters = {
         });
 
         return hal;
-    }
+    },
+
+    toHydra: function (repr) {
+        var resource = {
+            '@context': [
+                'http://localhost:4000/hydra/@context/video.jsonld',
+                {
+                    '@base': 'http://localhost:4000'
+                }
+            ],
+            '@type': [
+                'http://videos.resftest.org/api/Video',
+                'http://schema.org/VideoObject'
+            ]
+        };
+
+        Object.keys(repr.attributes).forEach(function (attribute) {
+            if (!repr.attributes[attribute]) {
+                return;
+            }
+
+            resource[attribute] = repr.attributes[attribute];
+        });
+
+        repr.links.links.forEach(function (linkRepr) {
+            if(linkRepr.rel == 'self') {
+                resource['@id'] = `/hydra${linkRepr.href}.jsonld`;
+                return;
+            }
+
+            resource[linkRepr.rel] = {
+                '@id': `/hydra${linkRepr.href}.jsonld`
+            };
+        });
+
+        return resource;
+    },
 }
