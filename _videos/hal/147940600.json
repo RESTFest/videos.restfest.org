@@ -1,0 +1,45 @@
+{
+    "name": "REST Fest 2015 \\ Rouslan Zenetl \\ FiveInFive",
+    "description": "Five In Five Talk\nRouslan Zenetl\n19 SEPTEMBER 2015\n\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+    "duration": 581,
+    "width": 1280,
+    "language": "en",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/147940600?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Rouslan Zenetl \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2015-12-05T14:43:48+00:00",
+    "modified_time": "2017-10-02T13:31:32+00:00",
+    "release_time": "2015-12-05T14:43:48+00:00",
+    "license": "by-nc-sa",
+    "_links": {
+        "self": {
+            "href": "/videos/147940600"
+        }
+    },
+    "_embedded": {
+        "http://videos.restfest.org/rels/pictures": {
+            "active": true,
+            "type": "custom",
+            "_links": {
+                "self": {
+                    "href": "/videos/147940600/pictures/546747220"
+                }
+            },
+            "_embedded": {
+                "http://videos.restfest.org/rels/size": {
+                    "width": 1280,
+                    "height": 720,
+                    "_links": {
+                        "self": {
+                            "href": "https://i.vimeocdn.com/video/546747220_1280x720.jpg?r=pad"
+                        },
+                        "http://videos.restfest.org/rels/picture_with_play_button": {
+                            "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F546747220_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
