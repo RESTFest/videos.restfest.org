@@ -18,7 +18,7 @@
     "build": "cd lib/semantic/ && gulp build",
     "serve": "bundle exec jekyll serve --incremental",
     "hacktivity": "node scripts/collect.js && node scripts/hacktivity.js",
-    "represent": "node scripts/represent.js",
+    "represent:videos": "node scripts/representVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
