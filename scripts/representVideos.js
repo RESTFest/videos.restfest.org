@@ -2,66 +2,10 @@ var fs = require('fs');
 var util = require('util')
 var Representor = require('representor').Representor;
 
+// Build HAL representations from raw video files
 fs.readdir('./_data/raw/vimeo', function (errors, filenames) {
-    var halVideoLinks = filenames.map(function (filename) {
-        return { href: `/videos/hal/${filename}` };
-    });
-
-    var hal = {
-        _links: {
-            self: '/videos/hal/index.json',
-            'http://videos.restfest.org/rels/video': halVideoLinks
-        }
-    };
-
-    fs.writeFile('./_videos/hal/index.json', JSON.stringify(hal, null, 4), function () { });
-
-    filenames.forEach(function (filename) {
-        fs.readFile(`./_data/raw/vimeo/${filename}`, function (readError, content) {
-            var videoId = filename.split('.')[0];
-            var rawVideo = JSON.parse(content.toString());
-            var repr = new Representor();
-
-            var rootProps = ['name', 'description', 'duration', 'width', 'language', 'height', 'embed', 'created_time', 'modified_time', 'release_time', 'license'];
-            var sizeProps = ['width', 'height'];
-
-            repr.links.add({
-                rel: 'self',
-                href: rawVideo.uri
-            })
-
-            // Get root props
-            rootProps.forEach(function (prop) {
-                repr.attributes[prop] = rawVideo[prop];
-            });
-
-            // We'll treat each size as its own picture
-            rawVideo.pictures.sizes.forEach(function (size) {
-                var picRepr = repr.embeddeds.add({
-                    rel: 'http://videos.restfest.org/rels/picture',
-                });
-
-                picRepr.links.add({
-                    rel: 'self',
-                    href: size.link
-                });
-
-                picRepr.links.add({
-                    rel: 'http://videos.restfest.org/rels/picture_with_play_button',
-                    href: size.link_with_play_button
-                });
-
-                // Add the relevant size attributes to our "picture"
-                sizeProps.forEach(function (prop) {
-                    picRepr.attributes[prop] = size[prop]
-                });
-            });
-
-            var hal = adapters.toHal(repr);
-
-            fs.writeFileSync(`./_videos/hal/${videoId}.json`, JSON.stringify(hal, null, 4) + "\n");
-        });
-    });
+    createHalIndex(filenames);
+    createHalFiles(filenames);
 });
 
 var adapters = {
@@ -110,4 +54,68 @@ var adapters = {
 
         return hal;
     }
+}
+
+function createHalIndex(filenames) {
+    var halVideoLinks = filenames.map(function (filename) {
+        return { href: `/videos/hal/${filename}` };
+    });
+
+    var hal = {
+        _links: {
+            self: '/videos/hal/index.json',
+            'http://videos.restfest.org/rels/video': halVideoLinks
+        }
+    };
+
+    fs.writeFile('./_videos/hal/index.json', JSON.stringify(hal, null, 4), function () { });
+}
+
+function createHalFiles(filenames) {
+    filenames.forEach(function (filename) {
+        fs.readFile(`./_data/raw/vimeo/${filename}`, function (readError, content) {
+            var videoId = filename.split('.')[0];
+            var rawVideo = JSON.parse(content.toString());
+            var repr = new Representor();
+
+            var rootProps = ['name', 'description', 'duration', 'width', 'language', 'height', 'embed', 'created_time', 'modified_time', 'release_time', 'license'];
+            var sizeProps = ['width', 'height'];
+
+            repr.links.add({
+                rel: 'self',
+                href: rawVideo.uri
+            })
+
+            // Get root props
+            rootProps.forEach(function (prop) {
+                repr.attributes[prop] = rawVideo[prop];
+            });
+
+            // We'll treat each size as its own picture
+            rawVideo.pictures.sizes.forEach(function (size) {
+                var picRepr = repr.embeddeds.add({
+                    rel: 'http://videos.restfest.org/rels/picture',
+                });
+
+                picRepr.links.add({
+                    rel: 'self',
+                    href: size.link
+                });
+
+                picRepr.links.add({
+                    rel: 'http://videos.restfest.org/rels/picture_with_play_button',
+                    href: size.link_with_play_button
+                });
+
+                // Add the relevant size attributes to our "picture"
+                sizeProps.forEach(function (prop) {
+                    picRepr.attributes[prop] = size[prop]
+                });
+            });
+
+            var hal = adapters.toHal(repr);
+
+            fs.writeFileSync(`./_videos/hal/${videoId}.json`, JSON.stringify(hal, null, 4) + "\n");
+        });
+    });
 }
