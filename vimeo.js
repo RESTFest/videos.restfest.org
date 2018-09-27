@@ -2,8 +2,6 @@ const fs = require('fs');
 
 const config = require('./vimeo.json');
 
-console.log(config);
-
 const Vimeo = require('vimeo').Vimeo;
 const lib = new Vimeo(config.client_id, config.client_secret, config.auth_token);
 
@@ -31,7 +29,8 @@ function outputVideosAsJSON(body) {
     }
     let json = JSON.stringify(output, null, '  ');
     //console.log('output', json);
-    let file_path = `_data${output.uri}.json`;
+    let id = output.uri.split('/')[2]; // uri is `/video/{id}`
+    let file_path = `_data/raw/vimeo/${id}.json`;
     fs.writeFile(file_path, json, (err) => {
       if (err) console.error(err);
       console.log(file_path +' was written successfully');
@@ -93,8 +92,8 @@ function gatherChannelVideos(channel_id) {
       } else {
         console.log('channel: ', channel_id);
         console.log('pages', body.total, body.page, body.per_page);
-//        outputVideosAsJSON(body);
-        outputVideosAsYAML(body);
+        outputVideosAsJSON(body);
+//        outputVideosAsYAML(body);
 
       }
 

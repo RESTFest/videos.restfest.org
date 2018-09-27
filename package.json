@@ -7,10 +7,9 @@
   },
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.9.1",
     "node-fetch": "^1.7.3",
     "representor": "^0.2.0",
-    "semantic-ui": "^2.2.13"
+    "semantic-ui": "^2.4.0"
   },
   "devDependencies": {
     "vimeo": "^1.2.1"

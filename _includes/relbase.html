@@ -1,0 +1,8 @@
+{% assign relbase = '' %}
+{% assign tempDepth = page.url | append: 'hackish-solution' | split: '/' | size | minus: 2 %}
+{% for i in (1..tempDepth) %}
+    {% assign relbase = relbase | append: ".." %}
+{% endfor %}
+{% if relbase == '' %}
+    {% assign relbase = '.' %}
+{% endif %}
