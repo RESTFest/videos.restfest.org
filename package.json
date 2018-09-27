@@ -9,6 +9,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "node-fetch": "^1.7.3",
+    "representor": "^0.2.0",
     "semantic-ui": "^2.2.13"
   },
   "devDependencies": {
@@ -18,6 +19,7 @@
     "build": "cd lib/semantic/ && gulp build",
     "serve": "bundle exec jekyll serve --incremental",
     "hacktivity": "node scripts/collect.js && node scripts/hacktivity.js",
+    "represent": "node scripts/represent.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
