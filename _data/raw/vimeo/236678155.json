@@ -8,10 +8,25 @@
   "language": "en",
   "height": 1080,
   "embed": {
-    "html": "<iframe src=\"https://player.vimeo.com/video/236678155?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest 2017 \\ Doug Cone \\ Five-in-Five\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    "html": "<iframe src=\"https://player.vimeo.com/video/236678155?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest 2017 \\ Doug Cone \\ Five-in-Five\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "badges": {
+      "hdr": false,
+      "live": {
+        "streaming": false,
+        "archived": false
+      },
+      "staff_pick": {
+        "normal": false,
+        "best_of_the_month": false,
+        "best_of_the_year": false,
+        "premiere": false
+      },
+      "vod": false,
+      "weekend_challenge": false
+    }
   },
   "created_time": "2017-10-04T00:41:10+00:00",
-  "modified_time": "2017-11-12T17:31:04+00:00",
+  "modified_time": "2018-04-20T09:35:35+00:00",
   "release_time": "2017-10-04T00:41:10+00:00",
   "license": "by-nc-sa",
   "pictures": {
