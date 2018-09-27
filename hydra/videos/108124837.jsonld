@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2014 \\ Ryan McAllen \\ FiveinFive",
+    "description": "Five In Five Talk\n\"Fight To Win: Know Your Enemy\"\nRyan McAllen\n27 SEPTEMBER 2014\n\nVIDEO SPONSORED BY LAYER 7 TECHNOLOGIES: www.layer7tech.com",
+    "duration": 704,
+    "width": 1280,
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/108124837?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2014 \\ Ryan McAllen \\ FiveinFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2014-10-06T14:12:37+00:00",
+    "modified_time": "2017-10-04T09:32:23+00:00",
+    "release_time": "2014-10-06T14:12:37+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/108124837.jsonld"
+}

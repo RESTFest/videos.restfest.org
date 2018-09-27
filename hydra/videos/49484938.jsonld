@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2012 \\ Darrel Miller",
+    "description": "TITLE: 7 Rs of Hypermedia\n\nDESCRIPTION: This workshop is an exercise in exploring the practical uses of hypermedia; a valuable reference resource for anyone who wants to see real world hypermedia usage. Through his work, Miller has identified seven different scenarios where hypermedia can be used within distributed applications: Relations, Resources, Reference Data, Restriction, Re-Distribution, Reduction, and Reactive.\n\nPRESENTER: Darrel Miller is CTO at Tavis Software. Tavis Software is an ISV that targets a small vertical market in the world of Enterprise Resource Planning (ERP) software. Darrel has been responsible for the architecture, design, development, deployment, support and maintenance of distributed business systems using ISAM databases, client/server databases, SOAP based services and most recently REST based systems. Darrel has been writing software professionally for 18 years. The last four years have been spent discovering the benefits of the REST. His particular focus is on the use of REST to develop non-browser based line-of-business applications. He is a Connected Systems Developer Microsoft MVP and a member of the Microsoft Web API advisory board.",
+    "duration": 5153,
+    "width": 640,
+    "height": 360,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/49484938?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Darrel Miller\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2012-09-14T23:00:31+00:00",
+    "modified_time": "2017-10-24T03:21:37+00:00",
+    "release_time": "2012-09-14T23:00:31+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/49484938.jsonld"
+}

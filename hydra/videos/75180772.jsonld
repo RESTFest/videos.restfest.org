@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2013 \\ Matt Brown \\ FiveInFive",
+    "description": "\"Change Is Hard\"",
+    "duration": 286,
+    "width": 772,
+    "height": 426,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/75180772?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"772\" height=\"426\" frameborder=\"0\" title=\"REST Fest 2013 \\ Matt Brown \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2013-09-23T02:40:32+00:00",
+    "modified_time": "2017-10-02T13:33:28+00:00",
+    "release_time": "2013-09-23T02:40:32+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/75180772.jsonld"
+}

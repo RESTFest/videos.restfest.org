@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2017 \\ Michael Hibay \\ Five-in-Five",
+    "description": "Michael Hibay - ''Stop Burning Your Customers and Users'' - 15 September 2017",
+    "duration": 245,
+    "width": 1920,
+    "language": "en",
+    "height": 1080,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/235965538?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest 2017 \\ Michael Hibay \\ Five-in-Five\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2017-09-28T19:06:56+00:00",
+    "modified_time": "2017-11-29T10:17:23+00:00",
+    "release_time": "2017-09-28T19:06:56+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/235965538.jsonld"
+}

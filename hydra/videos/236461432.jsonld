@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2017 \\ Ryan Maas \\ Five-in-Five",
+    "description": "Ryan Maas - ''Testing With (Untested) Legacy Code'' - 15 September 2017",
+    "duration": 221,
+    "width": 1920,
+    "language": "en",
+    "height": 1080,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/236461432?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest 2017 \\ Ryan Maas \\ Five-in-Five\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2017-10-02T18:37:28+00:00",
+    "modified_time": "2017-12-14T11:46:54+00:00",
+    "release_time": "2017-10-02T18:37:28+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/236461432.jsonld"
+}

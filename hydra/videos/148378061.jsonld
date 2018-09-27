@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2015 \\ Dave Goldberg \\ FiveInFive",
+    "description": "Five In Five Talk\nDave Goldberg\n19 SEPTEMBER 2015\n\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+    "duration": 386,
+    "width": 1280,
+    "language": "en",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/148378061?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Dave Goldberg \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2015-12-09T16:57:16+00:00",
+    "modified_time": "2017-10-02T13:31:28+00:00",
+    "release_time": "2015-12-09T16:57:16+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/148378061.jsonld"
+}

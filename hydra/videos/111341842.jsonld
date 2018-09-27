@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2014 \\ Lukas Linhart \\ FiveInFive",
+    "description": "Five In Five Talk\n\"MIA\"\nLukas Linhart\n27 SEPTEMBER 2014\n\nVIDEO SPONSORED BY LAYER 7 TECHNOLOGIES: layer7tech.com",
+    "duration": 392,
+    "width": 1280,
+    "language": "en-US",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/111341842?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2014 \\ Lukas Linhart \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2014-11-09T15:53:03+00:00",
+    "modified_time": "2017-10-02T13:31:24+00:00",
+    "release_time": "2014-11-09T15:53:03+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/111341842.jsonld"
+}

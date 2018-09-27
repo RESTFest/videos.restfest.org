@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2012 \\ Pat Cappelaere II",
+    "description": "TITLE: RESTful Patterns for [OGC] Enterprise Services\n\nDESCRIPTION: Imagine a SensorWeb with millions of service of various types that could be accessed by humans or automatically by machines over the web…sensor gauges in Namibia connected to forecasting models in the US and earth-orbiting satellites ready to image the upcoming flood on-demand. What architectural patterns may be required of these services to meet the challenge? Based on many observed best practices, which ones may need to be instituted for seamless interoperability over time? The Open Geospatial Consortium has defined a multitude of standardized services. Over the last 25 years, those standards have evolved from a REST/RPC style to SOAP and a newer binding style is now being considered. This presentation will focus on some of the contemplated best practices that could be used to define a policy for a REST/Hypermedia API to be used at this enterprise level.\n\nPRESENTER: Pat Cappelaere is an independant Software Architect. His current work involves the development of the NASA SensorWeb, which provides seamless access to satellites and automatically generated products. Pat is also chairing the Open Geospatial Consortium \"RESTFul Services Policy\" Standards Working Group. He has been involved with many open source projects including Community Mapbuilder, Rools, and now RIP.",
+    "duration": 2263,
+    "width": 640,
+    "height": 360,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/49609650?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Pat Cappelaere II\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2012-09-17T15:51:47+00:00",
+    "modified_time": "2017-10-02T13:31:29+00:00",
+    "release_time": "2012-09-17T15:51:47+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/49609650.jsonld"
+}

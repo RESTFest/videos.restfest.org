@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2013 \\ Brian Sletten",
+    "description": "\"REST is Just the Beginning\" (Keynote)\n\nDeciding to build systems with REST isn't an endpoint. It isn't even really a goal. It is means to an end and a doorway to resource-oriented thinking. Hypermedia and Uniform Interfaces give us loosely-coupled and predictable systems but push the complexity of data integration to the client. The economic cost of integrating multiple sources remains high. Thin resource abstractions end at the HTTP boundary.\n\nWhat are some patterns that emerge from thinking in resources? How can we reduce the economic cost of integration? What would a resource-oriented computing environment look like? This talk will be a quick journey through some next level thinking about REST, the Semantic Web, Linked Data and a resource-oriented software platform.\n\nBrian Sletten is a liberal arts-educated software engineer with a focus on forward-leaning technologies. His experience has spanned many industries including retail, banking, online games, defense, finance, hospitality and health care. He has a B.S. in Computer Science from the College of William and Mary and lives in Auburn, CA. He focuses on web architecture, resource-oriented computing, social networking, the Semantic Web, data science, 3D graphics, visualization, scalable systems, security consulting and other technologies of the late 20th and early 21st Centuries. He is also a rabid reader, devoted foodie and has excellent taste in music. If pressed, he might tell you about his International Pop Recording career.",
+    "duration": 6717,
+    "width": 640,
+    "height": 468,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/81396582?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"640\" height=\"468\" frameborder=\"0\" title=\"REST Fest 2013 \\ Brian Sletten\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2013-12-09T14:33:41+00:00",
+    "modified_time": "2018-01-17T22:03:31+00:00",
+    "release_time": "2013-12-09T14:33:41+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/81396582.jsonld"
+}

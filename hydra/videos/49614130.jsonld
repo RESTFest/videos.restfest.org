@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2012 \\ Ryan McAllen \\ FiveInFive",
+    "description": "“How to be a better Condescender-er.”",
+    "duration": 758,
+    "width": 640,
+    "height": 360,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/49614130?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"640\" height=\"360\" frameborder=\"0\" title=\"REST Fest 2012 \\ Ryan McAllen \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2012-09-17T16:49:23+00:00",
+    "modified_time": "2017-10-04T13:49:40+00:00",
+    "release_time": "2012-09-17T16:49:23+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/49614130.jsonld"
+}

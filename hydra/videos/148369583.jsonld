@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2015 \\ Eli Knebel \\ FiveInFive",
+    "description": "Five In Five Talk\nEli Knebel\n19 SEPTEMBER 2015\n\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+    "duration": 527,
+    "width": 1280,
+    "language": "en",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/148369583?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Eli Knebel \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "created_time": "2015-12-09T15:56:47+00:00",
+    "modified_time": "2017-10-02T13:31:24+00:00",
+    "release_time": "2015-12-09T15:56:47+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/videos/148369583.jsonld"
+}
