@@ -3,21 +3,12 @@ layout: default
 title: Home
 ---
 
-<div class="ui green icon message">
-  <i class="calendar icon"></i>
-  <div class="content">
-    <div class="header">Have you been waiting all year to get to that thing?</div>
-    Now's the time! <a href="/about">Find out more.</a>
-  </div>
-</div>
-
-{% include 31boxes.html %}
-
+<!-- TODO: switch this to a video collection output from _data -->
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="ui vertical segment">
     <h1>
-      <a class="ui green header" href="{{ post.url }}">
+      <a class="ui green header" href="{{ relbase }}{{ post.url }}">
         {{ post.title }}
         <span class="sub header">{{ post.date | date_to_string }}</span>
       </a>
@@ -31,15 +22,15 @@ title: Home
 {% if paginator.next_page or paginator.previous_page %}
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ relbase }}page{{paginator.next_page}}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ relbase }}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ relbase }}page{{paginator.previous_page}}">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
