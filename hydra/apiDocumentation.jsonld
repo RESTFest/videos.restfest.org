@@ -59,6 +59,19 @@
         },
         {
           "@type": "SupportedProperty",
+          "description": "The video embed property",
+          "property": {
+            "@id": "http://videos.restfest.org/api/embed",
+            "@type": "rdf:Property",
+            "range": "http://videos.resftest.org/api/Embed"
+          },
+          "readable": true,
+          "required": false,
+          "title": "Vimeo video",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
           "description": "The dateCreated property",
           "property": {
             "@id": "http://schema.org/dateCreated",
