@@ -8,6 +8,7 @@
   "main": "index.js",
   "dependencies": {
     "node-fetch": "^1.7.3",
+    "representor": "^0.2.0",
     "semantic-ui": "^2.4.0"
   },
   "devDependencies": {
@@ -17,6 +18,7 @@
     "build": "cd lib/semantic/ && gulp build",
     "serve": "bundle exec jekyll serve --incremental",
     "hacktivity": "node scripts/collect.js && node scripts/hacktivity.js",
+    "represent:videos": "node scripts/representVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

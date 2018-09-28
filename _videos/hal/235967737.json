@@ -1,0 +1,135 @@
+{
+    "name": "REST Fest 2017 \\ Erik Wilde \\ Five-in-Five",
+    "description": "Erik Wilde - ''Let's Fix HAL!'' - 15 September 2017",
+    "duration": 420,
+    "width": 1920,
+    "language": "en",
+    "height": 1080,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/235967737?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest 2017 \\ Erik Wilde \\ Five-in-Five\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2017-09-28T19:20:19+00:00",
+    "modified_time": "2018-09-19T22:09:33+00:00",
+    "release_time": "2017-09-28T19:20:19+00:00",
+    "license": "by-nc-sa",
+    "_links": {
+        "self": {
+            "href": "/videos/235967737"
+        }
+    },
+    "_embedded": {
+        "http://videos.restfest.org/rels/picture": [
+            {
+                "width": 100,
+                "height": 75,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_100x75.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 200,
+                "height": 150,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_200x150.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 295,
+                "height": 166,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_295x166.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 640,
+                "height": 360,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_640x360.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 960,
+                "height": 540,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_960x540.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 1280,
+                "height": 720,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_1280x720.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 1920,
+                "height": 1080,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_1920x1080.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            },
+            {
+                "width": 1280,
+                "height": 720,
+                "_links": {
+                    "self": {
+                        "href": "https://i.vimeocdn.com/video/659926435_1280x720.jpg?r=pad"
+                    },
+                    "http://videos.restfest.org/rels/picture_with_play_button": {
+                        "href": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659926435_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+                    }
+                }
+            }
+        ]
+    }
+}
