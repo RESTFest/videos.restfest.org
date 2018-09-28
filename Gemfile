@@ -21,6 +21,7 @@ gem "github-pages", '170', group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
+   gem 'jekyll-data', '0.1.1', :path => '_presite_plugins/jekyll-data'
 end
 
 # Suggested by Jekyll to avoid polling for changes
