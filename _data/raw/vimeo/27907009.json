@@ -26,9 +26,19 @@
     }
   },
   "created_time": "2011-08-19T14:27:07+00:00",
-  "modified_time": "2017-10-02T13:31:29+00:00",
+  "modified_time": "2018-09-27T18:44:12+00:00",
   "release_time": "2011-08-19T14:27:07+00:00",
+  "content_rating": [
+    "unrated"
+  ],
   "license": "by-nc-sa",
+  "privacy": {
+    "view": "anybody",
+    "embed": "public",
+    "download": true,
+    "add": true,
+    "comments": "anybody"
+  },
   "pictures": {
     "uri": "/videos/27907009/pictures/185728118",
     "active": true,
@@ -84,5 +94,728 @@
       }
     ],
     "resource_key": "5b0ab7892ff52bc633930ca9513cb942e5479955"
+  },
+  "tags": [
+    {
+      "uri": "/tags/rest",
+      "name": "REST",
+      "tag": "REST",
+      "canonical": "rest",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/rest/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 4637
+          }
+        }
+      },
+      "resource_key": "39e9d9c26077de64a06bea6e0d08e4f484c0ba1c"
+    },
+    {
+      "uri": "/tags/webservices",
+      "name": "Web Services",
+      "tag": "Web Services",
+      "canonical": "webservices",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/webservices/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 492
+          }
+        }
+      },
+      "resource_key": "08e5598d289ad5f8c6969414668cbf523ce322a5"
+    },
+    {
+      "uri": "/tags/http",
+      "name": "HTTP",
+      "tag": "HTTP",
+      "canonical": "http",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/http/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 495
+          }
+        }
+      },
+      "resource_key": "e077d315ad0ad2d8f6857cfd1855fb2d19dcc7ea"
+    },
+    {
+      "uri": "/tags/hypermedia",
+      "name": "Hypermedia",
+      "tag": "Hypermedia",
+      "canonical": "hypermedia",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/hypermedia/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 193
+          }
+        }
+      },
+      "resource_key": "b873920689df1a4a096d8851422339e79e5ac432"
+    },
+    {
+      "uri": "/tags/url",
+      "name": "URL",
+      "tag": "URL",
+      "canonical": "url",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/url/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 775
+          }
+        }
+      },
+      "resource_key": "9c0d752b3d83869ca717f8de74d43a1b2792e45a"
+    },
+    {
+      "uri": "/tags/cloud",
+      "name": "Cloud",
+      "tag": "Cloud",
+      "canonical": "cloud",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/cloud/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 24472
+          }
+        }
+      },
+      "resource_key": "4004c98ee831c590bfb408af2864dd45a96693ab"
+    },
+    {
+      "uri": "/tags/web2dot0",
+      "name": "Web 2.0",
+      "tag": "Web 2.0",
+      "canonical": "web2dot0",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/web2dot0/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 3509
+          }
+        }
+      },
+      "resource_key": "52697a5d2f43e265d9350965b259dfccf1a43a22"
+    },
+    {
+      "uri": "/tags/webdevelopment",
+      "name": "Web Development",
+      "tag": "Web Development",
+      "canonical": "webdevelopment",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/webdevelopment/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 7086
+          }
+        }
+      },
+      "resource_key": "373857571d12a20b19621069328c00b6207ff77a"
+    },
+    {
+      "uri": "/tags/html5",
+      "name": "HTML5",
+      "tag": "HTML5",
+      "canonical": "html5",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/html5/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 6629
+          }
+        }
+      },
+      "resource_key": "4aca9129044c2d6b4db1463b77e984bf537ab0cd"
+    },
+    {
+      "uri": "/tags/nodedotjs",
+      "name": "node.js",
+      "tag": "node.js",
+      "canonical": "nodedotjs",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/nodedotjs/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 1437
+          }
+        }
+      },
+      "resource_key": "c1d8a4ad01a3a66b9fbcec32c4e301c0c8476c4d"
+    },
+    {
+      "uri": "/tags/soa",
+      "name": "SOA",
+      "tag": "SOA",
+      "canonical": "soa",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/soa/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 1345
+          }
+        }
+      },
+      "resource_key": "954419ef438990c522e081266d1d3158d2266e34"
+    }
+  ],
+  "stats": {
+    "plays": null
+  },
+  "metadata": {
+    "connections": {
+      "comments": {
+        "uri": "/videos/27907009/comments",
+        "options": [
+          "GET"
+        ],
+        "total": 0
+      },
+      "credits": {
+        "uri": "/videos/27907009/credits",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 3
+      },
+      "likes": {
+        "uri": "/videos/27907009/likes",
+        "options": [
+          "GET"
+        ],
+        "total": 0
+      },
+      "pictures": {
+        "uri": "/videos/27907009/pictures",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 1
+      },
+      "texttracks": {
+        "uri": "/videos/27907009/texttracks",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 0
+      },
+      "related": {
+        "uri": "/channels/restfest2011/videos?per_page=100&offset=42",
+        "options": [
+          "GET"
+        ]
+      }
+    },
+    "interactions": {
+      "channel": null,
+      "report": {
+        "uri": "/videos/27907009/report",
+        "options": [
+          "POST"
+        ],
+        "reason": [
+          "pornographic",
+          "harassment",
+          "advertisement",
+          "ripoff",
+          "incorrect rating",
+          "spam"
+        ]
+      }
+    }
+  },
+  "user": {
+    "uri": "/users/877378",
+    "name": "REST Fest",
+    "link": "https://vimeo.com/restfest",
+    "location": "Greenville SC USA",
+    "bio": "REST Fest is an unconference developed by Mike Amundsen and Benjamin Young.\n\nOur objective is to give people interested in REST, Hypermedia APIs, crafting web service APIs, or any related topics a chance to get together in an informal setting to share ideas, trade stories, and show examples of current work.",
+    "created_time": "2008-10-27T14:37:36+00:00",
+    "pictures": {
+      "uri": "/users/877378/pictures/8411920",
+      "active": true,
+      "type": "custom",
+      "sizes": [
+        {
+          "width": 30,
+          "height": 30,
+          "link": "https://i.vimeocdn.com/portrait/8411920_30x30"
+        },
+        {
+          "width": 75,
+          "height": 75,
+          "link": "https://i.vimeocdn.com/portrait/8411920_75x75"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "link": "https://i.vimeocdn.com/portrait/8411920_100x100"
+        },
+        {
+          "width": 300,
+          "height": 300,
+          "link": "https://i.vimeocdn.com/portrait/8411920_300x300"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "link": "https://i.vimeocdn.com/portrait/8411920_72x72"
+        },
+        {
+          "width": 144,
+          "height": 144,
+          "link": "https://i.vimeocdn.com/portrait/8411920_144x144"
+        },
+        {
+          "width": 216,
+          "height": 216,
+          "link": "https://i.vimeocdn.com/portrait/8411920_216x216"
+        },
+        {
+          "width": 288,
+          "height": 288,
+          "link": "https://i.vimeocdn.com/portrait/8411920_288x288"
+        },
+        {
+          "width": 360,
+          "height": 360,
+          "link": "https://i.vimeocdn.com/portrait/8411920_360x360"
+        }
+      ],
+      "resource_key": "9f28a8588cfa58edce6a15c84ec6e6f90dd5bf71"
+    },
+    "websites": [
+      {
+        "name": "REST Fest",
+        "link": "http://www.restfest.org/",
+        "description": "Official Site"
+      }
+    ],
+    "metadata": {
+      "connections": {
+        "activities": {
+          "uri": "/users/877378/activities",
+          "options": [
+            "GET"
+          ]
+        },
+        "albums": {
+          "uri": "/users/877378/albums",
+          "options": [
+            "GET"
+          ],
+          "total": 1
+        },
+        "appearances": {
+          "uri": "/users/877378/appearances",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "channels": {
+          "uri": "/users/877378/channels",
+          "options": [
+            "GET"
+          ],
+          "total": 7
+        },
+        "feed": {
+          "uri": "/users/877378/feed",
+          "options": [
+            "GET"
+          ]
+        },
+        "followers": {
+          "uri": "/users/877378/followers",
+          "options": [
+            "GET"
+          ],
+          "total": 105
+        },
+        "following": {
+          "uri": "/users/877378/following",
+          "options": [
+            "GET"
+          ],
+          "total": 12
+        },
+        "groups": {
+          "uri": "/users/877378/groups",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "likes": {
+          "uri": "/users/877378/likes",
+          "options": [
+            "GET"
+          ],
+          "total": 1
+        },
+        "moderated_channels": {
+          "uri": "/users/877378/channels?filter=moderated",
+          "options": [
+            "GET"
+          ],
+          "total": 8
+        },
+        "portfolios": {
+          "uri": "/users/877378/portfolios",
+          "options": [
+            "GET"
+          ],
+          "total": 2
+        },
+        "videos": {
+          "uri": "/users/877378/videos",
+          "options": [
+            "GET"
+          ],
+          "total": 324
+        },
+        "shared": {
+          "uri": "/users/877378/shared/videos",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "pictures": {
+          "uri": "/users/877378/pictures",
+          "options": [
+            "GET",
+            "POST"
+          ],
+          "total": 1
+        }
+      }
+    },
+    "resource_key": "d3aeeb55b3398789239bff041d0943226c255d91",
+    "account": "pro",
+    "preferences": {
+      "videos": {
+        "privacy": null
+      }
+    }
+  },
+  "app": null,
+  "status": "available",
+  "resource_key": "249f44deb3d887a897816c58547dc7780006437d",
+  "upload": null,
+  "transcode": null,
+  "review_link": "https://vimeo.com/restfest/review/27907009/2db794894d",
+  "embed_presets": {
+    "uri": "/presets/120145749",
+    "name": "simple-as-can-be",
+    "settings": {
+      "buttons": {
+        "like": false,
+        "watchlater": false,
+        "share": false,
+        "embed": false,
+        "vote": false,
+        "hd": false
+      },
+      "logos": {
+        "vimeo": true,
+        "custom": false,
+        "sticky_custom": false
+      },
+      "outro": "videos",
+      "autopause": true,
+      "autoplay": false,
+      "background": false,
+      "cards": [],
+      "color": "A5CB39",
+      "loop": false,
+      "muted": false,
+      "outro_secondary_link_name": "",
+      "outro_secondary_link_url": "",
+      "outro_text_title": "",
+      "link": true,
+      "overlay_email_capture": -1,
+      "overlay_email_capture_confirmation": "Thanks! We’ll be in touch.",
+      "overlay_email_capture_text": null,
+      "playsinline": true,
+      "responsive": false,
+      "show_360_label": true,
+      "badge": false,
+      "byline": "hide",
+      "byline_badge": false,
+      "collections_button": false,
+      "show_compass": true,
+      "fullscreen_button": true,
+      "playbar": false,
+      "portrait": "hide",
+      "scaling_button": true,
+      "speed": false,
+      "title": "hide",
+      "volume": true,
+      "transparent": true,
+      "email_capture_during_playback": false,
+      "email_capture_timecode": null,
+      "stream_clips": {
+        "video": [
+          {
+            "id": 148642390,
+            "title": "REST Fest 2015 \\ Shelby Switzer",
+            "url": "https://vimeo.com/channels/restfest2015/148642390",
+            "thumbnail": "https://i.vimeocdn.com/video/547652393_100x75.jpg",
+            "owner": {
+              "name": "REST Fest",
+              "url": "https://vimeo.com/restfest"
+            }
+          },
+          {
+            "id": 148639330,
+            "title": "REST Fest 2015 \\ Jakub Nestril \\ FiveInFive",
+            "url": "https://vimeo.com/channels/restfest2015/148639330",
+            "thumbnail": "https://i.vimeocdn.com/video/547637353_100x75.jpg",
+            "owner": {
+              "name": "REST Fest",
+              "url": "https://vimeo.com/restfest"
+            }
+          },
+          {
+            "id": 148634783,
+            "title": "REST Fest 2015 \\ James Jordan \\ FiveInFive",
+            "url": "https://vimeo.com/channels/restfest2015/148634783",
+            "thumbnail": "https://i.vimeocdn.com/video/547632437_100x75.jpg",
+            "owner": {
+              "name": "REST Fest",
+              "url": "https://vimeo.com/restfest"
+            }
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "connections": {
+        "videos": {
+          "uri": "/presets/120145749/videos",
+          "options": [
+            "GET"
+          ],
+          "total": 324
+        }
+      }
+    },
+    "user": {
+      "uri": "/users/877378",
+      "name": "REST Fest",
+      "link": "https://vimeo.com/restfest",
+      "location": "Greenville SC USA",
+      "bio": "REST Fest is an unconference developed by Mike Amundsen and Benjamin Young.\n\nOur objective is to give people interested in REST, Hypermedia APIs, crafting web service APIs, or any related topics a chance to get together in an informal setting to share ideas, trade stories, and show examples of current work.",
+      "created_time": "2008-10-27T14:37:36+00:00",
+      "pictures": {
+        "uri": "/users/877378/pictures/8411920",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 30,
+            "height": 30,
+            "link": "https://i.vimeocdn.com/portrait/8411920_30x30"
+          },
+          {
+            "width": 75,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/portrait/8411920_75x75"
+          },
+          {
+            "width": 100,
+            "height": 100,
+            "link": "https://i.vimeocdn.com/portrait/8411920_100x100"
+          },
+          {
+            "width": 300,
+            "height": 300,
+            "link": "https://i.vimeocdn.com/portrait/8411920_300x300"
+          },
+          {
+            "width": 72,
+            "height": 72,
+            "link": "https://i.vimeocdn.com/portrait/8411920_72x72"
+          },
+          {
+            "width": 144,
+            "height": 144,
+            "link": "https://i.vimeocdn.com/portrait/8411920_144x144"
+          },
+          {
+            "width": 216,
+            "height": 216,
+            "link": "https://i.vimeocdn.com/portrait/8411920_216x216"
+          },
+          {
+            "width": 288,
+            "height": 288,
+            "link": "https://i.vimeocdn.com/portrait/8411920_288x288"
+          },
+          {
+            "width": 360,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/portrait/8411920_360x360"
+          }
+        ],
+        "resource_key": "9f28a8588cfa58edce6a15c84ec6e6f90dd5bf71"
+      },
+      "websites": [
+        {
+          "name": "REST Fest",
+          "link": "http://www.restfest.org/",
+          "description": "Official Site"
+        }
+      ],
+      "metadata": {
+        "connections": {
+          "activities": {
+            "uri": "/users/877378/activities",
+            "options": [
+              "GET"
+            ]
+          },
+          "albums": {
+            "uri": "/users/877378/albums",
+            "options": [
+              "GET"
+            ],
+            "total": 1
+          },
+          "appearances": {
+            "uri": "/users/877378/appearances",
+            "options": [
+              "GET"
+            ],
+            "total": 0
+          },
+          "channels": {
+            "uri": "/users/877378/channels",
+            "options": [
+              "GET"
+            ],
+            "total": 7
+          },
+          "feed": {
+            "uri": "/users/877378/feed",
+            "options": [
+              "GET"
+            ]
+          },
+          "followers": {
+            "uri": "/users/877378/followers",
+            "options": [
+              "GET"
+            ],
+            "total": 105
+          },
+          "following": {
+            "uri": "/users/877378/following",
+            "options": [
+              "GET"
+            ],
+            "total": 12
+          },
+          "groups": {
+            "uri": "/users/877378/groups",
+            "options": [
+              "GET"
+            ],
+            "total": 0
+          },
+          "likes": {
+            "uri": "/users/877378/likes",
+            "options": [
+              "GET"
+            ],
+            "total": 1
+          },
+          "moderated_channels": {
+            "uri": "/users/877378/channels?filter=moderated",
+            "options": [
+              "GET"
+            ],
+            "total": 8
+          },
+          "portfolios": {
+            "uri": "/users/877378/portfolios",
+            "options": [
+              "GET"
+            ],
+            "total": 2
+          },
+          "videos": {
+            "uri": "/users/877378/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 324
+          },
+          "shared": {
+            "uri": "/users/877378/shared/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/users/877378/pictures",
+            "options": [
+              "GET",
+              "POST"
+            ],
+            "total": 1
+          }
+        }
+      },
+      "resource_key": "d3aeeb55b3398789239bff041d0943226c255d91",
+      "account": "pro",
+      "preferences": {
+        "videos": {
+          "privacy": null
+        }
+      }
+    }
   }
 }

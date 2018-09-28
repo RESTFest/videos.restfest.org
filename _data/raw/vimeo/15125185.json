@@ -28,7 +28,17 @@
   "created_time": "2010-09-20T14:23:25+00:00",
   "modified_time": "2018-07-06T19:07:15+00:00",
   "release_time": "2010-09-20T14:23:25+00:00",
+  "content_rating": [
+    "unrated"
+  ],
   "license": null,
+  "privacy": {
+    "view": "anybody",
+    "embed": "public",
+    "download": true,
+    "add": true,
+    "comments": "anybody"
+  },
   "pictures": {
     "uri": "/videos/15125185/pictures/90566056",
     "active": true,
@@ -54,5 +64,343 @@
       }
     ],
     "resource_key": "e84215f1705e03fdfaeba4162db8209180c9cd1f"
-  }
+  },
+  "tags": [
+    {
+      "uri": "/tags/rest",
+      "name": "REST",
+      "tag": "REST",
+      "canonical": "rest",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/rest/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 4637
+          }
+        }
+      },
+      "resource_key": "8dd2e5b37c0d000d51e5203480c110765b5b37aa"
+    },
+    {
+      "uri": "/tags/restfest",
+      "name": "RESTFest",
+      "tag": "RESTFest",
+      "canonical": "restfest",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/restfest/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 113
+          }
+        }
+      },
+      "resource_key": "67b100cef9e8d597aba4aa50218fec76f82f0ccf"
+    },
+    {
+      "uri": "/tags/microsoft",
+      "name": "Microsoft",
+      "tag": "Microsoft",
+      "canonical": "microsoft",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/microsoft/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 21776
+          }
+        }
+      },
+      "resource_key": "ae0d37c082b86da29bd08c0e6ee7a560cdcab63f"
+    },
+    {
+      "uri": "/tags/wcf",
+      "name": "WCF",
+      "tag": "WCF",
+      "canonical": "wcf",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/wcf/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 321
+          }
+        }
+      },
+      "resource_key": "05e01046f985f853e8f9b5386a2fcda18fc9e719"
+    },
+    {
+      "uri": "/tags/http",
+      "name": "HTTP",
+      "tag": "HTTP",
+      "canonical": "http",
+      "metadata": {
+        "connections": {
+          "videos": {
+            "uri": "/tags/http/videos",
+            "options": [
+              "GET"
+            ],
+            "total": 495
+          }
+        }
+      },
+      "resource_key": "6fab9063eeb2e88e2b3221cefdc878e837d42cf9"
+    }
+  ],
+  "stats": {
+    "plays": null
+  },
+  "metadata": {
+    "connections": {
+      "comments": {
+        "uri": "/videos/15125185/comments",
+        "options": [
+          "GET"
+        ],
+        "total": 0
+      },
+      "credits": {
+        "uri": "/videos/15125185/credits",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 1
+      },
+      "likes": {
+        "uri": "/videos/15125185/likes",
+        "options": [
+          "GET"
+        ],
+        "total": 1
+      },
+      "pictures": {
+        "uri": "/videos/15125185/pictures",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 1
+      },
+      "texttracks": {
+        "uri": "/videos/15125185/texttracks",
+        "options": [
+          "GET",
+          "POST"
+        ],
+        "total": 0
+      },
+      "related": null
+    },
+    "interactions": {
+      "channel": null,
+      "report": {
+        "uri": "/videos/15125185/report",
+        "options": [
+          "POST"
+        ],
+        "reason": [
+          "pornographic",
+          "harassment",
+          "advertisement",
+          "ripoff",
+          "incorrect rating",
+          "spam"
+        ]
+      }
+    }
+  },
+  "user": {
+    "uri": "/users/4775426",
+    "name": "Darrel Miller",
+    "link": "https://vimeo.com/user4775426",
+    "location": "Montreal, QC",
+    "bio": null,
+    "created_time": "2010-09-20T14:21:19+00:00",
+    "pictures": {
+      "uri": "/users/4775426/pictures/1229121",
+      "active": true,
+      "type": "custom",
+      "sizes": [
+        {
+          "width": 30,
+          "height": 30,
+          "link": "https://i.vimeocdn.com/portrait/1229121_30x30"
+        },
+        {
+          "width": 75,
+          "height": 75,
+          "link": "https://i.vimeocdn.com/portrait/1229121_75x75"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "link": "https://i.vimeocdn.com/portrait/1229121_100x100"
+        },
+        {
+          "width": 300,
+          "height": 300,
+          "link": "https://i.vimeocdn.com/portrait/1229121_300x300"
+        },
+        {
+          "width": 72,
+          "height": 72,
+          "link": "https://i.vimeocdn.com/portrait/1229121_72x72"
+        },
+        {
+          "width": 144,
+          "height": 144,
+          "link": "https://i.vimeocdn.com/portrait/1229121_144x144"
+        },
+        {
+          "width": 216,
+          "height": 216,
+          "link": "https://i.vimeocdn.com/portrait/1229121_216x216"
+        },
+        {
+          "width": 288,
+          "height": 288,
+          "link": "https://i.vimeocdn.com/portrait/1229121_288x288"
+        },
+        {
+          "width": 360,
+          "height": 360,
+          "link": "https://i.vimeocdn.com/portrait/1229121_360x360"
+        }
+      ],
+      "resource_key": "888121d51ca04ba4a2a9bb2f860cb5b32915a87a"
+    },
+    "websites": [
+      {
+        "name": null,
+        "link": "http://www.bizcoder.com",
+        "description": null
+      }
+    ],
+    "metadata": {
+      "connections": {
+        "activities": {
+          "uri": "/users/4775426/activities",
+          "options": [
+            "GET"
+          ]
+        },
+        "albums": {
+          "uri": "/users/4775426/albums",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "appearances": {
+          "uri": "/users/4775426/appearances",
+          "options": [
+            "GET"
+          ],
+          "total": 12
+        },
+        "channels": {
+          "uri": "/users/4775426/channels",
+          "options": [
+            "GET"
+          ],
+          "total": 1
+        },
+        "feed": {
+          "uri": "/users/4775426/feed",
+          "options": [
+            "GET"
+          ]
+        },
+        "followers": {
+          "uri": "/users/4775426/followers",
+          "options": [
+            "GET"
+          ],
+          "total": 4
+        },
+        "following": {
+          "uri": "/users/4775426/following",
+          "options": [
+            "GET"
+          ],
+          "total": 1
+        },
+        "groups": {
+          "uri": "/users/4775426/groups",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "likes": {
+          "uri": "/users/4775426/likes",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "moderated_channels": {
+          "uri": "/users/4775426/channels?filter=moderated",
+          "options": [
+            "GET"
+          ],
+          "total": 1
+        },
+        "portfolios": {
+          "uri": "/users/4775426/portfolios",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "videos": {
+          "uri": "/users/4775426/videos",
+          "options": [
+            "GET"
+          ],
+          "total": 22
+        },
+        "shared": {
+          "uri": "/users/4775426/shared/videos",
+          "options": [
+            "GET"
+          ],
+          "total": 0
+        },
+        "pictures": {
+          "uri": "/users/4775426/pictures",
+          "options": [
+            "GET",
+            "POST"
+          ],
+          "total": 1
+        }
+      }
+    },
+    "resource_key": "c48426e280805ace3c64a52aa35eb42ccba8c426",
+    "account": "basic",
+    "preferences": {
+      "videos": {
+        "privacy": null
+      }
+    }
+  },
+  "app": null,
+  "status": "available",
+  "resource_key": "17f02afcc84eeefac106cecf76611a7de050aefb",
+  "upload": null,
+  "transcode": null,
+  "review_link": "https://vimeo.com/user4775426/review/15125185/8ad9a19898",
+  "embed_presets": null
 }
