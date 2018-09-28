@@ -6,7 +6,7 @@ module Jekyll
           prog.command(:persons) do |c|
             c.action do |args, options|
               #Jekyll.logger.info(options);
-              processor = People.new( options["source"], options["destination"])
+              processor = People.new( options["source"] )
               for wiki in args do
                 processor.capture(wiki)
               end
