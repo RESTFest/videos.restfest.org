@@ -4,6 +4,29 @@
   "entrypoint": "http://localhost:4000/hydra/entrypoint.jsonld",
   "supportedClass": [
     {
+      "@id": "http://videos.restfest.org/api#EntryPoint",
+      "@type": "Class",
+      "description": "The entrypoint class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The videos collection",
+          "property": {
+            "@id": "http://videos.restfest.org/api#videos",
+            "@type": [
+              "rdf:Property",
+              "Link"
+            ],
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "videos",
+          "writeable": false
+        }
+      ]
+    },
+    {
       "@id": "http://videos.resftest.org/api/Video",
       "@type": "Class",
       "description": "The Video class",

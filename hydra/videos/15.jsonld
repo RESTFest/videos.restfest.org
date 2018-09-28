@@ -1,0 +1,302 @@
+{
+    "@id": "http://localhost:4000/hydra/videos.jsonld",
+    "@type": "hydra:Collection",
+    "hydra:totalItems": 320,
+    "member": [
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Ken Anderson \\ FiveInFive",
+            "@id": "/hydra/video/75091092.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Manoj Agarwal \\ FiveInFive",
+            "@id": "/hydra/video/75094803.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Mercedes Coyle \\ FiveInFive",
+            "@id": "/hydra/video/75104679.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Cameron Bytheway \\ FiveInFive",
+            "@id": "/hydra/video/75106816.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Mike Amundsen",
+            "@id": "/hydra/video/75106815.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Jason Rudolph \\ FiveInFive",
+            "@id": "/hydra/video/75106817.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Jake Levitt \\ FiveInFive",
+            "@id": "/hydra/video/75171337.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Forrest Galloway \\ FiveInFive",
+            "@id": "/hydra/video/75142088.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Matt Brown \\ FiveInFive",
+            "@id": "/hydra/video/75180772.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Luke Stokes \\ FiveInFive",
+            "@id": "/hydra/video/75256658.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Mark Foster \\ FiveInFive",
+            "@id": "/hydra/video/75220210.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ James Morgan \\ FiveInFive",
+            "@id": "/hydra/video/75407072.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Eric Oestrich \\ FiveInFive",
+            "@id": "/hydra/video/75525216.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Noah Fontes \\ FiveInFive",
+            "@id": "/hydra/video/77063203.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Ben Longden \\ FiveInFive",
+            "@id": "/hydra/video/77175962.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Benjamin Young \\ FiveInFive",
+            "@id": "/hydra/video/77316052.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Bianca Gandolfo \\ FiveInFive",
+            "@id": "/hydra/video/77316051.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Zdenek Nemec \\ FiveInFive",
+            "@id": "/hydra/video/77316053.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Brian Sletten",
+            "@id": "/hydra/video/81396582.jsonld"
+        },
+        {
+            "@context": [
+                "http://localhost:4000/hydra/@context/video.jsonld",
+                {
+                    "@base": "http://localhost:4000"
+                }
+            ],
+            "@type": [
+                "http://videos.resftest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2014 \\ Promo",
+            "@id": "/hydra/video/81777120.jsonld"
+        }
+    ],
+    "view": {
+        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@type": "hydra:PartialCollectionView",
+        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "hydra:last": "http://localhost:4000/hydra/videos/16",
+        "hydra:previous": "http://localhost:4000/hydra/videos/14.jsonld",
+        "hydra:next": "http://localhost:4000/hydra/videos/16.jsonld"
+    },
+    "@context": [
+        {
+            "hydra": "http://www.w3.org/ns/hydra/core#",
+            "member": "hydra:member",
+            "view": "hydra:view"
+        }
+    ]
+}

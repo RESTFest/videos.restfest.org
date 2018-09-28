@@ -1,0 +1,20 @@
+{
+    "@id": "http://localhost:4000/hydra/videos.jsonld",
+    "@type": "hydra:Collection",
+    "hydra:totalItems": 320,
+    "member": [],
+    "view": {
+        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@type": "hydra:PartialCollectionView",
+        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "hydra:last": "http://localhost:4000/hydra/videos/16",
+        "hydra:previous": "http://localhost:4000/hydra/videos/15.jsonld"
+    },
+    "@context": [
+        {
+            "hydra": "http://www.w3.org/ns/hydra/core#",
+            "member": "hydra:member",
+            "view": "hydra:view"
+        }
+    ]
+}

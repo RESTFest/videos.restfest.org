@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "http://localhost:4000/hydra/@context/video.jsonld",
+        {
+            "@base": "http://localhost:4000"
+        }
+    ],
+    "@type": [
+        "http://videos.resftest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2011 \\ Mike Amundsen \\ 1 of 7",
+    "description": "\"The ALPS Microblog Challenge\"\n18 August 2011\n\nMike Amundsen travels throughout the United States and Europe consulting and speaking on a wide range of topics including distributed network architecture, Web application development, Cloud computing, and other subjects. \n\nHis recent work focuses on the role hypermedia plays in creating and maintaining applications that can successfully evolve over time. \n\nHe has more than a dozen books to his credit and recently contributed to the book \"RESTful Web Services Cookbook\" (by Subbu Allamaraju). He is currently working on a new book on designing and implementing Hypermedia APIs. \n\nWhen he is not working, Mike enjoys spending time with his family in Kentucky, USA.",
+    "duration": 580,
+    "width": 1280,
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/27876702?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2011 \\ Mike Amundsen \\ 1 of 7\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2011-08-18T19:58:15+00:00",
+    "modified_time": "2017-10-02T13:31:27+00:00",
+    "release_time": "2011-08-18T19:58:15+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/video/27876702.jsonld"
+}
