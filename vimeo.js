@@ -21,12 +21,7 @@ const channel_ids = [
 function outputVideosAsJSON(body) {
   let fields = fields_list.split(',');
   body.data.forEach((item) => {
-    let output = {};
-    for (let key in item) {
-      if (fields.indexOf(key) > -1) {
-        output[key] = item[key];
-      }
-    }
+    let output = item;
     let json = JSON.stringify(output, null, '  ');
     //console.log('output', json);
     let id = output.uri.split('/')[2]; // uri is `/video/{id}`
