@@ -1,14 +1,11 @@
 {
-    "@id": "http://localhost:4000/hydra/videos.jsonld",
+    "@id": "/hydra/videos.jsonld",
     "@type": "hydra:Collection",
     "hydra:totalItems": 320,
     "member": [
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -19,24 +16,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2017 \\ Rob Flair \\ Five-in-Five",
-            "@id": "/hydra/video/236460234.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -47,10 +27,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -61,52 +38,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2017 \\ Joshua T. Kalis \\ Five-in-Five",
-            "@id": "/hydra/video/236460698.jsonld"
+            "name": "REST Fest 2017 \\ Rob Flair \\ Five-in-Five",
+            "@id": "/hydra/video/236460234.jsonld"
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2017 \\ Daniel Carton \\ Five-in-Five",
-            "@id": "/hydra/video/236461694.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2017 \\ Owen Rubel \\ Five-in-Five",
-            "@id": "/hydra/video/236461074.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -117,10 +60,40 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2017 \\ Owen Rubel \\ Five-in-Five",
+            "@id": "/hydra/video/236461074.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2017 \\ Joshua T. Kalis \\ Five-in-Five",
+            "@id": "/hydra/video/236460698.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2017 \\ Daniel Carton \\ Five-in-Five",
+            "@id": "/hydra/video/236461694.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -131,10 +104,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -145,24 +115,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2017 \\ Mitchell Mahoney \\ Five-in-Five",
-            "@id": "/hydra/video/236661641.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -173,10 +126,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2017 \\ Mitchell Mahoney \\ Five-in-Five",
+            "@id": "/hydra/video/236661641.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -187,24 +148,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2017 \\ Natalie Polk \\ Five-in-Five",
-            "@id": "/hydra/video/236664275.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -215,10 +159,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -229,24 +170,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2017 \\ Randall Randall \\ Five-in-Five",
-            "@id": "/hydra/video/236665065.jsonld"
+            "name": "REST Fest 2017 \\ Natalie Polk \\ Five-in-Five",
+            "@id": "/hydra/video/236664275.jsonld"
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -257,24 +192,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2017 \\ Ronnie Mitra \\ Five-in-Five",
-            "@id": "/hydra/video/236673145.jsonld"
+            "name": "REST Fest 2017 \\ Randall Randall \\ Five-in-Five",
+            "@id": "/hydra/video/236665065.jsonld"
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -282,15 +211,26 @@
             ],
             "name": "REST Fest 2017 \\ Scott Smith \\ Five-in-Five",
             "@id": "/hydra/video/236672972.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2017 \\ Ronnie Mitra \\ Five-in-Five",
+            "@id": "/hydra/video/236673145.jsonld"
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/10.jsonld",
+        "@id": "/hydra/videos/10.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "last": "http://localhost:4000/hydra/videos/16.jsonld",
-        "previous": "http://localhost:4000/hydra/videos/9.jsonld",
-        "next": "http://localhost:4000/hydra/videos/11.jsonld"
+        "first": "/hydra/videos/1.jsonld",
+        "last": "/hydra/videos/16.jsonld",
+        "previous": "/hydra/videos/9.jsonld",
+        "next": "/hydra/videos/11.jsonld"
     },
     "@context": [
         {

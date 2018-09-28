@@ -1,28 +1,11 @@
 {
-    "@id": "http://localhost:4000/hydra/videos.jsonld",
+    "@id": "/hydra/videos.jsonld",
     "@type": "hydra:Collection",
     "hydra:totalItems": 320,
     "member": [
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2016 \\ Todd Brackley",
-            "@id": "/hydra/video/183499783.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -33,10 +16,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -47,10 +27,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -61,38 +38,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2016 \\ Rob Zazueta",
-            "@id": "/hydra/video/183658016.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2016 \\ Arnaud Lauret \\ FiveInFive",
-            "@id": "/hydra/video/183658014.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -103,10 +49,40 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Todd Brackley",
+            "@id": "/hydra/video/183499783.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Arnaud Lauret \\ FiveInFive",
+            "@id": "/hydra/video/183658014.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Rob Zazueta",
+            "@id": "/hydra/video/183658016.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -117,10 +93,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -131,10 +104,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -145,10 +115,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -159,10 +126,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -173,10 +137,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -187,10 +148,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -201,10 +159,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -215,10 +170,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -229,24 +181,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2016 \\ Pamela Wood Browne \\ FiveInFive",
-            "@id": "/hydra/video/184333354.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -257,10 +192,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -271,10 +203,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Pamela Wood Browne \\ FiveInFive",
+            "@id": "/hydra/video/184333354.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -285,12 +225,12 @@
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/8.jsonld",
+        "@id": "/hydra/videos/8.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "last": "http://localhost:4000/hydra/videos/16.jsonld",
-        "previous": "http://localhost:4000/hydra/videos/7.jsonld",
-        "next": "http://localhost:4000/hydra/videos/9.jsonld"
+        "first": "/hydra/videos/1.jsonld",
+        "last": "/hydra/videos/16.jsonld",
+        "previous": "/hydra/videos/7.jsonld",
+        "next": "/hydra/videos/9.jsonld"
     },
     "@context": [
         {

@@ -1,28 +1,11 @@
 {
-    "@id": "http://localhost:4000/hydra/videos.jsonld",
+    "@id": "/hydra/videos.jsonld",
     "@type": "hydra:Collection",
     "hydra:totalItems": 320,
     "member": [
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Mike Amundsen \\ 6 of 7",
-            "@id": "/hydra/video/27907597.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -33,10 +16,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -47,10 +27,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Mike Amundsen \\ 6 of 7",
+            "@id": "/hydra/video/27907597.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -61,52 +49,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Darrel Miller \\ PREVIEW",
-            "@id": "/hydra/video/27921038.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Jon Moore \\ 3 of 7",
-            "@id": "/hydra/video/27941664.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Jon Moore \\ 1 of 7",
-            "@id": "/hydra/video/27941543.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -117,10 +60,40 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Jon Moore \\ 1 of 7",
+            "@id": "/hydra/video/27941543.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Darrel Miller \\ PREVIEW",
+            "@id": "/hydra/video/27921038.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Jon Moore \\ 3 of 7",
+            "@id": "/hydra/video/27941664.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -131,38 +104,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Jon Moore \\ 7 of 7",
-            "@id": "/hydra/video/27942428.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Jon Moore \\ 5 of 7",
-            "@id": "/hydra/video/27941971.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -173,10 +115,29 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Jon Moore \\ 5 of 7",
+            "@id": "/hydra/video/27941971.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Jon Moore \\ 7 of 7",
+            "@id": "/hydra/video/27942428.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -187,24 +148,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Darrel Miller \\ 1 of 9",
-            "@id": "/hydra/video/28200662.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -215,10 +159,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 1 of 9",
+            "@id": "/hydra/video/28200662.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -229,10 +181,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -243,24 +192,7 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
-            ],
-            "@type": [
-                "http://videos.restfest.org/api/Video",
-                "http://schema.org/VideoObject"
-            ],
-            "name": "REST Fest 2011 \\ Darrel Miller \\ 7 of 9",
-            "@id": "/hydra/video/28201733.jsonld"
-        },
-        {
-            "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -271,10 +203,18 @@
         },
         {
             "@context": [
-                "http://localhost:4000/hydra/@context/video.jsonld",
-                {
-                    "@base": "http://localhost:4000"
-                }
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 7 of 9",
+            "@id": "/hydra/video/28201733.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
             ],
             "@type": [
                 "http://videos.restfest.org/api/Video",
@@ -285,12 +225,12 @@
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/12.jsonld",
+        "@id": "/hydra/videos/12.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "last": "http://localhost:4000/hydra/videos/16.jsonld",
-        "previous": "http://localhost:4000/hydra/videos/11.jsonld",
-        "next": "http://localhost:4000/hydra/videos/13.jsonld"
+        "first": "/hydra/videos/1.jsonld",
+        "last": "/hydra/videos/16.jsonld",
+        "previous": "/hydra/videos/11.jsonld",
+        "next": "/hydra/videos/13.jsonld"
     },
     "@context": [
         {

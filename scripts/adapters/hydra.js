@@ -8,10 +8,7 @@ const writeFile = promisify(fs.writeFile);
 function adapt(repr) {
     const resource = {
         '@context': [
-            'http://localhost:4000/hydra/@context/video.jsonld',
-            {
-                '@base': 'http://localhost:4000'
-            }
+            '/hydra/@context/video.jsonld',
         ],
         '@type': [
             'http://videos.restfest.org/api/Video',
@@ -54,15 +51,15 @@ module.exports = {
             index++;
 
             const page = {
-                "@id": "http://localhost:4000/hydra/videos.jsonld",
+                "@id": "/hydra/videos.jsonld",
                 "@type": "hydra:Collection",
                 "hydra:totalItems": total,
                 "member": [],
                 "view": {
-                    "@id": `http://localhost:4000/hydra/videos/${index}.jsonld`,
+                    "@id": `/hydra/videos/${index}.jsonld`,
                     "@type": "hydra:PartialCollectionView",
-                    "first": "http://localhost:4000/hydra/videos/1.jsonld",
-                    "last": `http://localhost:4000/hydra/videos/${Math.ceil(total / pageSize)}.jsonld`
+                    "first": "/hydra/videos/1.jsonld",
+                    "last": `/hydra/videos/${Math.ceil(total / pageSize)}.jsonld`
                 },
                 "@context": [
                     {
@@ -78,11 +75,11 @@ module.exports = {
             };
 
             if (index > 1) {
-                page.view.previous = `http://localhost:4000/hydra/videos/${index - 1}.jsonld`;
+                page.view.previous = `/hydra/videos/${index - 1}.jsonld`;
             }
 
             if ((index + 1) * pageSize <= total) {
-                page.view.next = `http://localhost:4000/hydra/videos/${index + 1}.jsonld`;
+                page.view.next = `/hydra/videos/${index + 1}.jsonld`;
             }
 
             await Promise.all(files.map(file =>

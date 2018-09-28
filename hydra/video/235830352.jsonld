@@ -1,9 +1,6 @@
 {
     "@context": [
-        "http://localhost:4000/hydra/@context/video.jsonld",
-        {
-            "@base": "http://localhost:4000"
-        }
+        "/hydra/@context/video.jsonld"
     ],
     "@type": [
         "http://videos.restfest.org/api/Video",

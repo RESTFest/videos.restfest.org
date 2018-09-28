@@ -1,7 +1,6 @@
 {
   "@context": {
     "@vocab": "http://videos.restfest.org/api/",
-    "@base": "http://purl.org/restfest/videos/",
     "sch": "http://schema.org/",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "uri": {
