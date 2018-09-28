@@ -14,8 +14,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Eventlist Media Type",
-            "@id": "/hydra/video/15564107.jsonld"
+            "name": "REST Fest 2015 \\ Eric Oestrich",
+            "@id": "/hydra/video/148631733.jsonld"
         },
         {
             "@context": [
@@ -28,8 +28,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 REST Server",
-            "@id": "/hydra/video/15564460.jsonld"
+            "name": "REST Fest 2015 \\ Jakub Nestril \\ FiveInFive",
+            "@id": "/hydra/video/148639330.jsonld"
         },
         {
             "@context": [
@@ -42,8 +42,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Cargo Cult of REST",
-            "@id": "/hydra/video/15564773.jsonld"
+            "name": "REST Fest 2015 \\ Shelby Switzer",
+            "@id": "/hydra/video/148642390.jsonld"
         },
         {
             "@context": [
@@ -56,8 +56,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Web Tools",
-            "@id": "/hydra/video/15565098.jsonld"
+            "name": "REST Fest 2015 \\ James Jordan \\ FiveInFive",
+            "@id": "/hydra/video/148634783.jsonld"
         },
         {
             "@context": [
@@ -70,8 +70,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Can REST save Gideon",
-            "@id": "/hydra/video/15572407.jsonld"
+            "name": "Designing Hypermedia Pt. 1",
+            "@id": "/hydra/video/15141689.jsonld"
         },
         {
             "@context": [
@@ -84,8 +84,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Promo",
-            "@id": "/hydra/video/166110814.jsonld"
+            "name": "Designing Hypermedia - Pt.2",
+            "@id": "/hydra/video/15143300.jsonld"
         },
         {
             "@context": [
@@ -98,8 +98,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Welcome to REST Fest",
-            "@id": "/hydra/video/182882256.jsonld"
+            "name": "RESTfest Keynote - Glenn Block",
+            "@id": "/hydra/video/15125185.jsonld"
         },
         {
             "@context": [
@@ -112,8 +112,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Erik Wilde",
-            "@id": "/hydra/video/183079736.jsonld"
+            "name": "5in5 David Zuelke - Restful Airline reservation",
+            "@id": "/hydra/video/15175183.jsonld"
         },
         {
             "@context": [
@@ -126,8 +126,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Ivan Goncharov",
-            "@id": "/hydra/video/183110962.jsonld"
+            "name": "5in5 Erik Mogensen - Observable Pattern in REST",
+            "@id": "/hydra/video/15176628.jsonld"
         },
         {
             "@context": [
@@ -140,8 +140,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Brian Sletten",
-            "@id": "/hydra/video/183110975.jsonld"
+            "name": "5in5 Nick",
+            "@id": "/hydra/video/15176456.jsonld"
         },
         {
             "@context": [
@@ -154,8 +154,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Peter Rodgers",
-            "@id": "/hydra/video/183112507.jsonld"
+            "name": "5in5 KevBurnsJr WebHooks",
+            "@id": "/hydra/video/15175596.jsonld"
         },
         {
             "@context": [
@@ -168,8 +168,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Chris Busse",
-            "@id": "/hydra/video/183112508.jsonld"
+            "name": "5in5 Ryan McAllen - Your presentations suck",
+            "@id": "/hydra/video/15177382.jsonld"
         },
         {
             "@context": [
@@ -182,8 +182,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Roman Hotsiy",
-            "@id": "/hydra/video/183112509.jsonld"
+            "name": "Erik Mogensen - Ditch your complex client",
+            "@id": "/hydra/video/15455197.jsonld"
         },
         {
             "@context": [
@@ -196,8 +196,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Jerome Louvel",
-            "@id": "/hydra/video/183112669.jsonld"
+            "name": "Glenn Block - PHP MEF",
+            "@id": "/hydra/video/15455317.jsonld"
         },
         {
             "@context": [
@@ -210,8 +210,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Ronnie Mitra \\ FiveInFive",
-            "@id": "/hydra/video/183116319.jsonld"
+            "name": "Darrel Milller - Hypermedia Driven Clients",
+            "@id": "/hydra/video/15455581.jsonld"
         },
         {
             "@context": [
@@ -224,8 +224,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Jonathan Wagner \\ FiveInFive",
-            "@id": "/hydra/video/183118299.jsonld"
+            "name": "5in5 Glenn Block - Composite Apps and REST",
+            "@id": "/hydra/video/15177470.jsonld"
         },
         {
             "@context": [
@@ -238,8 +238,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Eric Oestrich \\ FiveInFive",
-            "@id": "/hydra/video/183468726.jsonld"
+            "name": "Information Architecture",
+            "@id": "/hydra/video/15457941.jsonld"
         },
         {
             "@context": [
@@ -252,8 +252,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Tim Dietrich",
-            "@id": "/hydra/video/183468727.jsonld"
+            "name": "All About EVE",
+            "@id": "/hydra/video/15457422.jsonld"
         },
         {
             "@context": [
@@ -266,8 +266,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest \\ Dave Goldberg \\ FiveInFive",
-            "@id": "/hydra/video/183468731.jsonld"
+            "name": "5in5 Large lists",
+            "@id": "/hydra/video/15458648.jsonld"
         },
         {
             "@context": [
@@ -280,23 +280,39 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2016 \\ Chris White \\ FiveInFive",
-            "@id": "/hydra/video/183468729.jsonld"
+            "name": "5in5 Hiding the SOAP",
+            "@id": "/hydra/video/15464190.jsonld"
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@id": "http://localhost:4000/hydra/videos/6.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "hydra:last": "http://localhost:4000/hydra/videos/16",
-        "hydra:previous": "http://localhost:4000/hydra/videos/5.jsonld",
-        "hydra:next": "http://localhost:4000/hydra/videos/7.jsonld"
+        "first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "last": "http://localhost:4000/hydra/videos/16.jsonld",
+        "previous": "http://localhost:4000/hydra/videos/5.jsonld",
+        "next": "http://localhost:4000/hydra/videos/7.jsonld"
     },
     "@context": [
         {
             "hydra": "http://www.w3.org/ns/hydra/core#",
             "member": "hydra:member",
-            "view": "hydra:view"
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
         }
     ]
 }

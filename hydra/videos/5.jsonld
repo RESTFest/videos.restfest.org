@@ -14,8 +14,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Eric Oestrich",
-            "@id": "/hydra/video/148631733.jsonld"
+            "name": "REST Fest 2015 \\ Shelby Switzer \\ FiveInFive",
+            "@id": "/hydra/video/146404926.jsonld"
         },
         {
             "@context": [
@@ -28,8 +28,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ James Jordan \\ FiveInFive",
-            "@id": "/hydra/video/148634783.jsonld"
+            "name": "REST Fest 2015 \\ Mayank Gupta \\ FiveInFive",
+            "@id": "/hydra/video/146492724.jsonld"
         },
         {
             "@context": [
@@ -42,8 +42,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Jakub Nestril \\ FiveInFive",
-            "@id": "/hydra/video/148639330.jsonld"
+            "name": "REST Fest 2015 \\ Luke Stokes \\ FiveInFive",
+            "@id": "/hydra/video/146493708.jsonld"
         },
         {
             "@context": [
@@ -56,8 +56,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "RESTfest Keynote - Glenn Block",
-            "@id": "/hydra/video/15125185.jsonld"
+            "name": "REST Fest 2015 \\ Misha Shengaout \\ FiveInFive",
+            "@id": "/hydra/video/146493965.jsonld"
         },
         {
             "@context": [
@@ -70,8 +70,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Designing Hypermedia Pt. 1",
-            "@id": "/hydra/video/15141689.jsonld"
+            "name": "REST Fest 2015 \\ James Snell \\ FiveInFive",
+            "@id": "/hydra/video/146494875.jsonld"
         },
         {
             "@context": [
@@ -84,8 +84,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Shelby Switzer",
-            "@id": "/hydra/video/148642390.jsonld"
+            "name": "REST Fest 2015 \\ Arnaud Lauret",
+            "@id": "/hydra/video/147233782.jsonld"
         },
         {
             "@context": [
@@ -98,8 +98,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Designing Hypermedia - Pt.2",
-            "@id": "/hydra/video/15143300.jsonld"
+            "name": "REST Fest 2015 \\ Irakli Nadareishvili \\ FiveInFive",
+            "@id": "/hydra/video/147233876.jsonld"
         },
         {
             "@context": [
@@ -112,8 +112,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 KevBurnsJr WebHooks",
-            "@id": "/hydra/video/15175596.jsonld"
+            "name": "REST Fest 2015 \\ John Wessel \\ FiveInFive",
+            "@id": "/hydra/video/147236239.jsonld"
         },
         {
             "@context": [
@@ -126,8 +126,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Nick",
-            "@id": "/hydra/video/15176456.jsonld"
+            "name": "REST Fest 2015 \\ Matthew Erbs \\ FiveInFive",
+            "@id": "/hydra/video/147236304.jsonld"
         },
         {
             "@context": [
@@ -140,8 +140,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 David Zuelke - Restful Airline reservation",
-            "@id": "/hydra/video/15175183.jsonld"
+            "name": "REST Fest 2015 \\ Leonard Richardson \\ FiveInFive",
+            "@id": "/hydra/video/147237932.jsonld"
         },
         {
             "@context": [
@@ -154,8 +154,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Erik Mogensen - Observable Pattern in REST",
-            "@id": "/hydra/video/15176628.jsonld"
+            "name": "REST Fest 2015 \\ Bonnie Mattson",
+            "@id": "/hydra/video/147239483.jsonld"
         },
         {
             "@context": [
@@ -168,8 +168,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Ryan McAllen - Your presentations suck",
-            "@id": "/hydra/video/15177382.jsonld"
+            "name": "REST Fest 2015 \\ Eric Mogensen",
+            "@id": "/hydra/video/147241329.jsonld"
         },
         {
             "@context": [
@@ -182,8 +182,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Glenn Block - Composite Apps and REST",
-            "@id": "/hydra/video/15177470.jsonld"
+            "name": "REST Fest 2015 \\ Ronnie Mitra \\ FiveInFive",
+            "@id": "/hydra/video/147940051.jsonld"
         },
         {
             "@context": [
@@ -196,8 +196,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Erik Mogensen - Ditch your complex client",
-            "@id": "/hydra/video/15455197.jsonld"
+            "name": "REST Fest 2015 \\ Rouslan Zenetl \\ FiveInFive",
+            "@id": "/hydra/video/147940600.jsonld"
         },
         {
             "@context": [
@@ -210,8 +210,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Glenn Block - PHP MEF",
-            "@id": "/hydra/video/15455317.jsonld"
+            "name": "REST Fest 2015 \\ Court Brown \\ FiveInFive",
+            "@id": "/hydra/video/147242982.jsonld"
         },
         {
             "@context": [
@@ -224,8 +224,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Darrel Milller - Hypermedia Driven Clients",
-            "@id": "/hydra/video/15455581.jsonld"
+            "name": "REST Fest 2015 \\ Eli Knebel \\ FiveInFive",
+            "@id": "/hydra/video/148369583.jsonld"
         },
         {
             "@context": [
@@ -238,8 +238,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "All About EVE",
-            "@id": "/hydra/video/15457422.jsonld"
+            "name": "REST Fest 2015 \\ Emmanuel Paraskakis \\ FiveInFive",
+            "@id": "/hydra/video/148371820.jsonld"
         },
         {
             "@context": [
@@ -252,8 +252,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "Information Architecture",
-            "@id": "/hydra/video/15457941.jsonld"
+            "name": "REST Fest 2015 \\ Erik Azar \\ FiveInFive",
+            "@id": "/hydra/video/148376453.jsonld"
         },
         {
             "@context": [
@@ -266,8 +266,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Hiding the SOAP",
-            "@id": "/hydra/video/15464190.jsonld"
+            "name": "REST Fest 2015 \\ Dave Goldberg \\ FiveInFive",
+            "@id": "/hydra/video/148378061.jsonld"
         },
         {
             "@context": [
@@ -280,23 +280,39 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "5in5 Large lists",
-            "@id": "/hydra/video/15458648.jsonld"
+            "name": "REST Fest 2015 \\ Mehdi Medjaoui \\ FiveInFive",
+            "@id": "/hydra/video/148385480.jsonld"
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@id": "http://localhost:4000/hydra/videos/5.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "hydra:last": "http://localhost:4000/hydra/videos/16",
-        "hydra:previous": "http://localhost:4000/hydra/videos/4.jsonld",
-        "hydra:next": "http://localhost:4000/hydra/videos/6.jsonld"
+        "first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "last": "http://localhost:4000/hydra/videos/16.jsonld",
+        "previous": "http://localhost:4000/hydra/videos/4.jsonld",
+        "next": "http://localhost:4000/hydra/videos/6.jsonld"
     },
     "@context": [
         {
             "hydra": "http://www.w3.org/ns/hydra/core#",
             "member": "hydra:member",
-            "view": "hydra:view"
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
         }
     ]
 }

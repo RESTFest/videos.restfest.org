@@ -14,8 +14,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Shelby Switzer \\ FiveInFive",
-            "@id": "/hydra/video/146404926.jsonld"
+            "name": "REST Fest 2015 \\ David Gardner \\ FiveInFive",
+            "@id": "/hydra/video/143370098.jsonld"
         },
         {
             "@context": [
@@ -28,8 +28,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Mayank Gupta \\ FiveInFive",
-            "@id": "/hydra/video/146492724.jsonld"
+            "name": "REST Fest 2015 \\ Arnaud Lauret \\ FiveInFive",
+            "@id": "/hydra/video/143614365.jsonld"
         },
         {
             "@context": [
@@ -42,8 +42,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Misha Shengaout \\ FiveInFive",
-            "@id": "/hydra/video/146493965.jsonld"
+            "name": "REST Fest 2015 \\ Chuck Gabriel \\ FiveInFive",
+            "@id": "/hydra/video/143629458.jsonld"
         },
         {
             "@context": [
@@ -56,8 +56,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Luke Stokes \\ FiveInFive",
-            "@id": "/hydra/video/146493708.jsonld"
+            "name": "REST Fest 2015 \\ Ryan McAllen \\ FiveInFive",
+            "@id": "/hydra/video/143629459.jsonld"
         },
         {
             "@context": [
@@ -70,8 +70,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Arnaud Lauret",
-            "@id": "/hydra/video/147233782.jsonld"
+            "name": "REST Fest 2015 \\ Michael Ottoson",
+            "@id": "/hydra/video/144148431.jsonld"
         },
         {
             "@context": [
@@ -84,8 +84,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ John Wessel \\ FiveInFive",
-            "@id": "/hydra/video/147236239.jsonld"
+            "name": "REST Fest 2015 \\ Tom Long \\ FiveInFive",
+            "@id": "/hydra/video/143655764.jsonld"
         },
         {
             "@context": [
@@ -98,8 +98,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ James Snell \\ FiveInFive",
-            "@id": "/hydra/video/146494875.jsonld"
+            "name": "REST Fest 2015 \\ Eric Mogensen \\ FiveInFive",
+            "@id": "/hydra/video/144351867.jsonld"
         },
         {
             "@context": [
@@ -112,8 +112,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Leonard Richardson \\ FiveInFive",
-            "@id": "/hydra/video/147237932.jsonld"
+            "name": "REST Fest 2015 \\ Dilip Krishnan \\ FiveInFive",
+            "@id": "/hydra/video/144353803.jsonld"
         },
         {
             "@context": [
@@ -126,8 +126,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Matthew Erbs \\ FiveInFive",
-            "@id": "/hydra/video/147236304.jsonld"
+            "name": "REST Fest 2015 \\ Doug Cone \\ FiveInFive",
+            "@id": "/hydra/video/144356309.jsonld"
         },
         {
             "@context": [
@@ -140,8 +140,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Bonnie Mattson",
-            "@id": "/hydra/video/147239483.jsonld"
+            "name": "REST Fest 2015 \\ Leonard Richardson",
+            "@id": "/hydra/video/145022543.jsonld"
         },
         {
             "@context": [
@@ -154,8 +154,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Irakli Nadareishvili \\ FiveInFive",
-            "@id": "/hydra/video/147233876.jsonld"
+            "name": "REST Fest 2015 \\ Brad Hart \\ FiveInFive",
+            "@id": "/hydra/video/145398738.jsonld"
         },
         {
             "@context": [
@@ -168,8 +168,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Eric Mogensen",
-            "@id": "/hydra/video/147241329.jsonld"
+            "name": "REST Fest 2015 \\ Christopher Reising \\ FiveInFive",
+            "@id": "/hydra/video/144374686.jsonld"
         },
         {
             "@context": [
@@ -182,8 +182,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Court Brown \\ FiveInFive",
-            "@id": "/hydra/video/147242982.jsonld"
+            "name": "REST Fest 2015 \\ Daniel Yokomizo \\ FiveInFive",
+            "@id": "/hydra/video/145398739.jsonld"
         },
         {
             "@context": [
@@ -196,8 +196,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Ronnie Mitra \\ FiveInFive",
-            "@id": "/hydra/video/147940051.jsonld"
+            "name": "REST Fest 2015 \\ Jonathan Robie",
+            "@id": "/hydra/video/145625987.jsonld"
         },
         {
             "@context": [
@@ -210,8 +210,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Rouslan Zenetl \\ FiveInFive",
-            "@id": "/hydra/video/147940600.jsonld"
+            "name": "REST Fest 2015 \\ Benjamin Young \\ FiveInFive",
+            "@id": "/hydra/video/146203443.jsonld"
         },
         {
             "@context": [
@@ -224,8 +224,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Emmanuel Paraskakis \\ FiveInFive",
-            "@id": "/hydra/video/148371820.jsonld"
+            "name": "REST Fest 2015 \\ Josh Johnson \\ FiveInFive",
+            "@id": "/hydra/video/146203446.jsonld"
         },
         {
             "@context": [
@@ -238,8 +238,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Erik Azar \\ FiveInFive",
-            "@id": "/hydra/video/148376453.jsonld"
+            "name": "REST Fest 2015 \\ Eric Oestrich \\ FiveInFive",
+            "@id": "/hydra/video/145632668.jsonld"
         },
         {
             "@context": [
@@ -252,8 +252,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Eli Knebel \\ FiveInFive",
-            "@id": "/hydra/video/148369583.jsonld"
+            "name": "REST Fest 2015 \\ Bonnie Mattson \\ FiveInFive",
+            "@id": "/hydra/video/146203445.jsonld"
         },
         {
             "@context": [
@@ -266,8 +266,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Dave Goldberg \\ FiveInFive",
-            "@id": "/hydra/video/148378061.jsonld"
+            "name": "REST Fest 2015 \\ Ken Wronkiewicz \\ FiveInFive",
+            "@id": "/hydra/video/146391091.jsonld"
         },
         {
             "@context": [
@@ -280,23 +280,39 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2015 \\ Mehdi Medjaoui \\ FiveInFive",
-            "@id": "/hydra/video/148385480.jsonld"
+            "name": "REST Fest 2015 \\ Ben Longden",
+            "@id": "/hydra/video/146396818.jsonld"
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@id": "http://localhost:4000/hydra/videos/4.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "hydra:last": "http://localhost:4000/hydra/videos/16",
-        "hydra:previous": "http://localhost:4000/hydra/videos/3.jsonld",
-        "hydra:next": "http://localhost:4000/hydra/videos/5.jsonld"
+        "first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "last": "http://localhost:4000/hydra/videos/16.jsonld",
+        "previous": "http://localhost:4000/hydra/videos/3.jsonld",
+        "next": "http://localhost:4000/hydra/videos/5.jsonld"
     },
     "@context": [
         {
             "hydra": "http://www.w3.org/ns/hydra/core#",
             "member": "hydra:member",
-            "view": "hydra:view"
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
         }
     ]
 }

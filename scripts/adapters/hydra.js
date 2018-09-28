@@ -59,29 +59,31 @@ module.exports = {
                 "hydra:totalItems": total,
                 "member": [],
                 "view": {
-                    "@id": `http://localhost:4000/hydra/videos/${1}.jsonld`,
+                    "@id": `http://localhost:4000/hydra/videos/${index}.jsonld`,
                     "@type": "hydra:PartialCollectionView",
-                    "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
-                    "hydra:last": `http://localhost:4000/hydra/videos/${Math.ceil(total / pageSize)}`
+                    "first": "http://localhost:4000/hydra/videos/1.jsonld",
+                    "last": `http://localhost:4000/hydra/videos/${Math.ceil(total / pageSize)}.jsonld`
                 },
                 "@context": [
                     {
                         'hydra': 'http://www.w3.org/ns/hydra/core#',
                         'member': 'hydra:member',
-                        'view': 'hydra:view'
+                        'view': 'hydra:view',
+                        first: { '@id': 'hydra:first', '@type': '@id' },
+                        last: { '@id': 'hydra:last', '@type': '@id' },
+                        previous: { '@id': 'hydra:previous', '@type': '@id' },
+                        next: { '@id': 'hydra:next', '@type': '@id' },
                     }
                 ],
             };
 
             if (index > 1) {
-                page.view['hydra:previous'] = `http://localhost:4000/hydra/videos/${index - 1}.jsonld`;
+                page.view.previous = `http://localhost:4000/hydra/videos/${index - 1}.jsonld`;
             }
 
             if ((index + 1) * pageSize <= total) {
-                page.view['hydra:next'] = `http://localhost:4000/hydra/videos/${index + 1}.jsonld`;
+                page.view.next = `http://localhost:4000/hydra/videos/${index + 1}.jsonld`;
             }
-
-            files = filenames.splice(0, pageSize);
 
             await Promise.all(files.map(file =>
                 readFile(`./_data/raw/vimeo/${file}`)
@@ -96,6 +98,8 @@ module.exports = {
             ));
 
             await writeFile(`./hydra/videos/${index}.jsonld`, JSON.stringify(page, null, 4));
+
+            files = filenames.splice(0, pageSize);
         }
     },
     getOutput: (videoId) => `./hydra/video/${videoId}.jsonld`

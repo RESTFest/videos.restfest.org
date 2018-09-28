@@ -14,8 +14,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Darrel Miller \\ 9 of 9",
-            "@id": "/hydra/video/28202110.jsonld"
+            "name": "REST Fest 2011 \\ Mike Amundsen \\ 4 of 7",
+            "@id": "/hydra/video/27907009.jsonld"
         },
         {
             "@context": [
@@ -28,8 +28,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Keith Casey \\ FiveInFive",
-            "@id": "/hydra/video/28202330.jsonld"
+            "name": "REST Fest 2011 \\ Mike Amundsen \\ 6 of 7",
+            "@id": "/hydra/video/27907597.jsonld"
         },
         {
             "@context": [
@@ -42,8 +42,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Rakesh Godavari \\ FiveInFive",
-            "@id": "/hydra/video/28202459.jsonld"
+            "name": "REST Fest 2011 \\ Mike Amundsen \\ 7 of 7",
+            "@id": "/hydra/video/27908208.jsonld"
         },
         {
             "@context": [
@@ -56,8 +56,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Rick Harris \\ FiveInFive",
-            "@id": "/hydra/video/28508582.jsonld"
+            "name": "REST Fest 2011 \\ Mike Amundsen \\ 5 of 7",
+            "@id": "/hydra/video/27907264.jsonld"
         },
         {
             "@context": [
@@ -70,8 +70,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Ben Ramsey \\ FiveInFive",
-            "@id": "/hydra/video/28509207.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ PREVIEW",
+            "@id": "/hydra/video/27921038.jsonld"
         },
         {
             "@context": [
@@ -84,8 +84,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Benjamin Young \\ FiveInFive",
-            "@id": "/hydra/video/28509433.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 1 of 7",
+            "@id": "/hydra/video/27941543.jsonld"
         },
         {
             "@context": [
@@ -98,8 +98,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Doug Cone \\ FiveInFive",
-            "@id": "/hydra/video/28509518.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 2 of 7",
+            "@id": "/hydra/video/27941602.jsonld"
         },
         {
             "@context": [
@@ -112,8 +112,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Kevin Dees \\ FiveInFive",
-            "@id": "/hydra/video/28509096.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 3 of 7",
+            "@id": "/hydra/video/27941664.jsonld"
         },
         {
             "@context": [
@@ -126,8 +126,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Eric Giard \\ FiveInFive",
-            "@id": "/hydra/video/28509932.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 4 of 7",
+            "@id": "/hydra/video/27941778.jsonld"
         },
         {
             "@context": [
@@ -140,8 +140,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Darrel Miller \\ FiveInFive",
-            "@id": "/hydra/video/28510071.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 5 of 7",
+            "@id": "/hydra/video/27941971.jsonld"
         },
         {
             "@context": [
@@ -154,8 +154,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Jim Ciallella \\ FiveInFive",
-            "@id": "/hydra/video/28510549.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 6 of 7",
+            "@id": "/hydra/video/27942048.jsonld"
         },
         {
             "@context": [
@@ -168,8 +168,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Greg Jones \\ FiveInFive",
-            "@id": "/hydra/video/28510208.jsonld"
+            "name": "REST Fest 2011 \\ Mike Amundsen PREVIEW",
+            "@id": "/hydra/video/28200424.jsonld"
         },
         {
             "@context": [
@@ -182,8 +182,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Jon Moore \\ FiveInFive",
-            "@id": "/hydra/video/28510817.jsonld"
+            "name": "REST Fest 2011 \\ Jon Moore \\ 7 of 7",
+            "@id": "/hydra/video/27942428.jsonld"
         },
         {
             "@context": [
@@ -196,8 +196,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ John Dyer \\ FiveInFive",
-            "@id": "/hydra/video/28510945.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 1 of 9",
+            "@id": "/hydra/video/28200662.jsonld"
         },
         {
             "@context": [
@@ -210,8 +210,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Randall Tombaugh",
-            "@id": "/hydra/video/28819797.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 2 of 9",
+            "@id": "/hydra/video/28200816.jsonld"
         },
         {
             "@context": [
@@ -224,8 +224,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Richard Hipp",
-            "@id": "/hydra/video/28821934.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 3 of 9",
+            "@id": "/hydra/video/28201006.jsonld"
         },
         {
             "@context": [
@@ -238,8 +238,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Subbu Allamaraju",
-            "@id": "/hydra/video/28821485.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 4 of 9",
+            "@id": "/hydra/video/28201096.jsonld"
         },
         {
             "@context": [
@@ -252,8 +252,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Kevin Burns",
-            "@id": "/hydra/video/29622595.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 5 of 9",
+            "@id": "/hydra/video/28201355.jsonld"
         },
         {
             "@context": [
@@ -266,8 +266,8 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Chris White \\ FiveInFive",
-            "@id": "/hydra/video/28837873.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 7 of 9",
+            "@id": "/hydra/video/28201733.jsonld"
         },
         {
             "@context": [
@@ -280,23 +280,39 @@
                 "http://videos.resftest.org/api/Video",
                 "http://schema.org/VideoObject"
             ],
-            "name": "REST Fest 2011 \\ Mike Amundsen \\ 1 of 2",
-            "@id": "/hydra/video/29623070.jsonld"
+            "name": "REST Fest 2011 \\ Darrel Miller \\ 8 of 9",
+            "@id": "/hydra/video/28201903.jsonld"
         }
     ],
     "view": {
-        "@id": "http://localhost:4000/hydra/videos/1.jsonld",
+        "@id": "http://localhost:4000/hydra/videos/12.jsonld",
         "@type": "hydra:PartialCollectionView",
-        "hydra:first": "http://localhost:4000/hydra/videos/1.jsonld",
-        "hydra:last": "http://localhost:4000/hydra/videos/16",
-        "hydra:previous": "http://localhost:4000/hydra/videos/11.jsonld",
-        "hydra:next": "http://localhost:4000/hydra/videos/13.jsonld"
+        "first": "http://localhost:4000/hydra/videos/1.jsonld",
+        "last": "http://localhost:4000/hydra/videos/16.jsonld",
+        "previous": "http://localhost:4000/hydra/videos/11.jsonld",
+        "next": "http://localhost:4000/hydra/videos/13.jsonld"
     },
     "@context": [
         {
             "hydra": "http://www.w3.org/ns/hydra/core#",
             "member": "hydra:member",
-            "view": "hydra:view"
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
         }
     ]
 }
