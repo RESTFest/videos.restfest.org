@@ -6,7 +6,7 @@
         }
     ],
     "@type": [
-        "http://videos.resftest.org/api/Video",
+        "http://videos.restfest.org/api/Video",
         "http://schema.org/VideoObject"
     ],
     "name": "5in5 REST Server",

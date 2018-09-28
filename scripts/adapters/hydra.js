@@ -14,7 +14,7 @@ function adapt(repr) {
             }
         ],
         '@type': [
-            'http://videos.resftest.org/api/Video',
+            'http://videos.restfest.org/api/Video',
             'http://schema.org/VideoObject'
         ]
     };

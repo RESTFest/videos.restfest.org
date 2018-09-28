@@ -6,7 +6,7 @@
         }
     ],
     "@type": [
-        "http://videos.resftest.org/api/Video",
+        "http://videos.restfest.org/api/Video",
         "http://schema.org/VideoObject"
     ],
     "name": "Adam Kliment \\ ''Subscribe to the API Design Programatically'' \\ REST Fest 2017",
