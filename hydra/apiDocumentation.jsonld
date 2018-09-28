@@ -27,7 +27,7 @@
       ]
     },
     {
-      "@id": "http://videos.resftest.org/api/Video",
+      "@id": "http://videos.restfest.org/api/Video",
       "@type": "Class",
       "description": "The Video class",
       "supportedProperty": [
@@ -63,7 +63,7 @@
           "property": {
             "@id": "http://videos.restfest.org/api/embed",
             "@type": "rdf:Property",
-            "range": "http://videos.resftest.org/api/Embed"
+            "range": "http://videos.restfest.org/api/Embed"
           },
           "readable": true,
           "required": false,
@@ -154,7 +154,7 @@
           "property": {
             "@id": "http://schema.org/pictures",
             "@type": "rdf:Property",
-            "range": "http://videos.resftest.org/api/Pictures"
+            "range": "http://videos.restfest.org/api/Pictures"
           },
           "readable": true,
           "required": false,
@@ -191,14 +191,14 @@
       "title": "Video"
     },
     {
-      "@id": "http://videos.resftest.org/api/Pictures",
+      "@id": "http://videos.restfest.org/api/Pictures",
       "@type": "Class",
       "description": "The Pictures class",
       "supportedProperty": {
         "@type": "SupportedProperty",
         "description": "The sizes property",
         "property": {
-          "@id": "http://videos.resftest.org/api/sizes",
+          "@id": "http://videos.restfest.org/api/sizes",
           "@type": "rdf:Property",
           "range": "Resource"
         },
@@ -210,7 +210,7 @@
       "title": "Pictures"
     },
     {
-      "@id": "http://videos.resftest.org/api/PictureSize",
+      "@id": "http://videos.restfest.org/api/PictureSize",
       "@type": "Class",
       "description": "The Size class",
       "supportedProperty": [
