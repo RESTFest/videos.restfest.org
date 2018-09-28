@@ -16,8 +16,8 @@
 title:            REST Fest Videos Project
 tagline:          'All the REST Fest on film.'
 description:      'All the REST Fest on film.'
-url:              http://videos.restfest.org
-baseurl:          /
+#url:              http://videos.restfest.org
+#baseurl:          /
 author:
   name:           'BigBlueHat'
   url:            http://bigbluehat.com/
@@ -33,7 +33,7 @@ collections:
 version:          2.1.0
 
 github:
-  repo:           https://github.com/BigBlueHat/devcember
+  repo:           https://github.com/BigBlueHat/videos.restfest.org
 
 # Dependencies
 markdown:         kramdown
@@ -44,6 +44,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
 exclude:
+  - code_of_conduct.md
   - Gemfile
   - Gemfile.lock
   - lib/semantic

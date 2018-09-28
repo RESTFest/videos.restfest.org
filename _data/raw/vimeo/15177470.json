@@ -1,0 +1,82 @@
+{
+  "uri": "/videos/15177470",
+  "name": "5in5 Glenn Block - Composite Apps and REST",
+  "description": null,
+  "link": "https://vimeo.com/15177470",
+  "duration": 583,
+  "width": 400,
+  "language": null,
+  "height": 224,
+  "embed": {
+    "html": "<iframe src=\"https://player.vimeo.com/video/15177470?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"400\" height=\"224\" frameborder=\"0\" title=\"5in5 Glenn Block - Composite Apps and REST\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "badges": {
+      "hdr": false,
+      "live": {
+        "streaming": false,
+        "archived": false
+      },
+      "staff_pick": {
+        "normal": false,
+        "best_of_the_month": false,
+        "best_of_the_year": false,
+        "premiere": false
+      },
+      "vod": false,
+      "weekend_challenge": false
+    }
+  },
+  "created_time": "2010-09-22T01:18:50+00:00",
+  "modified_time": "2015-07-23T13:12:26+00:00",
+  "release_time": "2010-09-22T01:18:50+00:00",
+  "license": null,
+  "pictures": {
+    "uri": "/videos/15177470/pictures/90969170",
+    "active": true,
+    "type": "custom",
+    "sizes": [
+      {
+        "width": 100,
+        "height": 75,
+        "link": "https://i.vimeocdn.com/video/90969170_100x75.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/90969170_200x150.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 295,
+        "height": 166,
+        "link": "https://i.vimeocdn.com/video/90969170_295x166.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 640,
+        "height": 358,
+        "link": "https://i.vimeocdn.com/video/90969170_640x358.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_640x358.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 960,
+        "height": 537,
+        "link": "https://i.vimeocdn.com/video/90969170_960x537.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_960x537.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 716,
+        "link": "https://i.vimeocdn.com/video/90969170_1280x716.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_1280x716.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1920,
+        "height": 1074,
+        "link": "https://i.vimeocdn.com/video/90969170_1920x1074.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F90969170_1920x1074.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }
+    ],
+    "resource_key": "6627f910948f342dafeea135e7b8214aa61a2c3d"
+  }
+}

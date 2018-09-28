@@ -1,0 +1,88 @@
+{
+  "uri": "/videos/184333341",
+  "name": "REST Fest \\ Mike Amundsen",
+  "description": "\"Learning Client Hypermedia\"\nMike Amundsen\n17 SEPTEMBER 2016\n\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+  "link": "https://vimeo.com/184333341",
+  "duration": 1944,
+  "width": 1920,
+  "language": "en",
+  "height": 1080,
+  "embed": {
+    "html": "<iframe src=\"https://player.vimeo.com/video/184333341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"REST Fest \\ Mike Amundsen\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "badges": {
+      "hdr": false,
+      "live": {
+        "streaming": false,
+        "archived": false
+      },
+      "staff_pick": {
+        "normal": false,
+        "best_of_the_month": false,
+        "best_of_the_year": false,
+        "premiere": false
+      },
+      "vod": false,
+      "weekend_challenge": false
+    }
+  },
+  "created_time": "2016-09-26T12:35:00+00:00",
+  "modified_time": "2018-09-08T21:46:11+00:00",
+  "release_time": "2016-09-26T12:35:00+00:00",
+  "license": "by-nc-sa",
+  "pictures": {
+    "uri": "/videos/184333341/pictures/593784701",
+    "active": true,
+    "type": "custom",
+    "sizes": [
+      {
+        "width": 100,
+        "height": 75,
+        "link": "https://i.vimeocdn.com/video/593784701_100x75.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 200,
+        "height": 150,
+        "link": "https://i.vimeocdn.com/video/593784701_200x150.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 295,
+        "height": 166,
+        "link": "https://i.vimeocdn.com/video/593784701_295x166.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "link": "https://i.vimeocdn.com/video/593784701_640x360.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "link": "https://i.vimeocdn.com/video/593784701_960x540.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/593784701_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "link": "https://i.vimeocdn.com/video/593784701_1920x1080.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/593784701_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F593784701_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      }
+    ],
+    "resource_key": "c121798747b156c852fe88a5e55c871df96a823e"
+  }
+}

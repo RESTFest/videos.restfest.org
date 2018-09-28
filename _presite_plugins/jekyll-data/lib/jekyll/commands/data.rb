@@ -1,3 +1,9 @@
+####
+#  kick off the data scraping process as jekyll command.
+#  --source https://github.com/RESTFest/{year}-Greenville/wiki/People
+# can support multiple year arguments if applicable.
+#
+#####
 module Jekyll
   module Commands
     class Cfp < Command
