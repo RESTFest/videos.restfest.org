@@ -53,6 +53,8 @@ exclude:
   - LICENSE
   - README
   - scripts/
+  - package.json
+  - package-lock.json
 
 jekyll-archives:
   enabled: all
