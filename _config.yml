@@ -55,14 +55,23 @@ exclude:
   - scripts/
   - package.json
   - package-lock.json
+  - vimeo.json
+  - vimeo.json.example
 
 jekyll-archives:
   enabled: all
+  layout: page
   layouts:
     year: year-archive
     month: month-archive
     day: day-archive
     tag: tag-archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 webrick:
   headers:
