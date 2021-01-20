@@ -1,9 +1,9 @@
 {
-  "name": "devcember.com",
+  "name": "videos.restfest.org",
   "version": "0.0.1",
-  "description": "Devcember Jekyll site",
+  "description": "REST Fest Video Project promo site",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=10.0.0"
   },
   "main": "index.js",
   "dependencies": {
@@ -17,22 +17,21 @@
   "scripts": {
     "build": "cd lib/semantic/ && gulp build",
     "serve": "bundle exec jekyll serve --incremental",
-    "hacktivity": "node scripts/collect.js && node scripts/hacktivity.js",
     "represent:videos": "node scripts/representVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WileyLabs/wileylabs.github.io.git"
+    "url": "github:restfest/videos.restfest.org"
   },
   "keywords": [
     "jekyll",
     "semantic-ui"
   ],
   "author": "BigBlueHat <byoung@bigbluehat.com>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/WileyLabs/wileylabs.github.io/issues"
+    "url": "https://github.com/restfest/videos.restfest.org/issues"
   },
-  "homepage": "https://github.com/WileyLabs/wileylabs.github.io#readme"
+  "homepage": "https://github.com/restfest/videos.restfest.org#readme"
 }

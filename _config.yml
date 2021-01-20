@@ -33,7 +33,7 @@ collections:
 version:          2.1.0
 
 github:
-  repo:           https://github.com/BigBlueHat/videos.restfest.org
+  repo:           https://github.com/restfest/videos.restfest.org
 
 # Dependencies
 markdown:         kramdown
