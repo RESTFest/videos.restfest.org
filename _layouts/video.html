@@ -2,6 +2,11 @@
 layout: page
 ---
 
+{{ content }}
+<a class="ui label" href="{{ page.vimeo.url }}">{{ page.vimeo.url }}</a>
+{% if page.slides %}
+<a class="ui label" href="{{ page.slides.url }}">{{ page.slides.url }}</a>
+{% endif %}
 <div class="ui embed">
-  {{ content }}
+  <iframe src="https://player.vimeo.com/video/{{ page.vimeo.id }}?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="{{ title }}"></iframe>
 </div>

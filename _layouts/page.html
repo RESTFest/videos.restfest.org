@@ -3,6 +3,6 @@ layout: default
 ---
 
 <div class="ui basic segment">
-  <h1 class="ui green header">{{ page.title }}</h1>
+  <h1 class="ui green header">{{ page.title }}{% if page.author %} by {{ page.author }}{% endif %}</h1>
   {{ content }}
 </div>
