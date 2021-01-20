@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "videos": {
+      "@id": "http://videos.restfest.org/api#videos",
+      "@type": "@id"
+    }
+  },
+  "@id": "http://localhost:4000/hydra/entrypoint.jsonld",
+  "@type": "http://videos.restfest.org/api#EntryPoint",
+  "videos": "http://localhost:4000/hydra/videos/1.jsonld"
+}

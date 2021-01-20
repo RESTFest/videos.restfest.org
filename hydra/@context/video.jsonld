@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@vocab": "http://videos.restfest.org/api/",
+    "sch": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "uri": {
+      "@type": "@id"
+    },
+    "created_time": {
+      "@id": "sch:dateCreated",
+      "@type": "xsd:DateTime"
+    },
+    "modified_time": {
+      "@id": "sch:dateModified",
+      "@type": "xsd:DateTime"
+    },
+    "release_time": {
+      "@id": "sch:datePublished",
+      "@type": "xsd:Date"
+    },
+    "name": "sch:name",
+    "description": "sch:description",
+    "duration": {
+      "@id": "sch:duration",
+      "@type": "sch:Duration"
+    },
+    "width": {
+      "@id": "sch:width",
+      "@type": "sch:QuantitativeValue"
+    },
+    "height": {
+      "@id": "sch:height",
+      "@type": "sch:QuantitativeValue"
+    },
+    "language": {
+      "@id": "sch:inLanguage"
+    },
+    "license": {
+      "@id": "sch:license",
+      "@type": "sch:URL"
+    },
+    "link": {
+      "@type": "@id"
+    }
+  }
+}

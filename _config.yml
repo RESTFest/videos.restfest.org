@@ -61,3 +61,10 @@ jekyll-archives:
     month: month-archive
     day: day-archive
     tag: tag-archive
+
+webrick:
+  headers:
+    Link: <http://localhost:4000/hydra/apiDocumentation.jsonld>; rel="http://www.w3.org/ns/hydra/core#apiDocumentation"
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Expose-Headers: "Link, Content-Location"
+    Access-Control-Allow-Methods: "POST, GET, DELETE, PUT, OPTIONS"

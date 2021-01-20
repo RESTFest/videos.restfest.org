@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "/hydra/@context/video.jsonld"
+    ],
+    "@type": [
+        "http://videos.restfest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2011 \\ Jon Moore \\ 3 of 7",
+    "description": "Dr. Jon Moore is Chief Engineer and Technical Fellow at Comcast Interactive Media (CIM), a division of Comcast Corporation dedicated to developing and operating online and cross-platform entertainment and media businesses, including: Comcast.net and XfinityTV.com. \n\nHe guides technical choices that allow CIM to bring innovative products to our customers ever more quickly. Moore received his Ph.D. in Computer and Information Science from the University of Pennsylvania.",
+    "duration": 578,
+    "width": 1280,
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/27941664?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2011 \\ Jon Moore \\ 3 of 7\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2011-08-20T13:15:29+00:00",
+    "modified_time": "2017-10-02T13:31:25+00:00",
+    "release_time": "2011-08-20T13:15:29+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/video/27941664.jsonld"
+}

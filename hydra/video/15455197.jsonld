@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "/hydra/@context/video.jsonld"
+    ],
+    "@type": [
+        "http://videos.restfest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "Erik Mogensen - Ditch your complex client",
+    "duration": 3468,
+    "width": 400,
+    "height": 224,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/15455197?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"400\" height=\"224\" frameborder=\"0\" title=\"Erik Mogensen - Ditch your complex client\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2010-10-01T12:38:42+00:00",
+    "modified_time": "2014-04-03T03:30:23+00:00",
+    "release_time": "2010-10-01T12:38:42+00:00",
+    "@id": "/hydra/video/15455197.jsonld"
+}

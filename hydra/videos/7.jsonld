@@ -1,0 +1,258 @@
+{
+    "@id": "/hydra/videos.jsonld",
+    "@type": "hydra:Collection",
+    "hydra:totalItems": 320,
+    "member": [
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "5in5 Web Tools",
+            "@id": "/hydra/video/15565098.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "5in5 REST Server",
+            "@id": "/hydra/video/15564460.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "5in5 Cargo Cult of REST",
+            "@id": "/hydra/video/15564773.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "5in5 Eventlist Media Type",
+            "@id": "/hydra/video/15564107.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "5in5 Can REST save Gideon",
+            "@id": "/hydra/video/15572407.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Welcome to REST Fest",
+            "@id": "/hydra/video/182882256.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Promo",
+            "@id": "/hydra/video/166110814.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Erik Wilde",
+            "@id": "/hydra/video/183079736.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Ivan Goncharov",
+            "@id": "/hydra/video/183110962.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Brian Sletten",
+            "@id": "/hydra/video/183110975.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Peter Rodgers",
+            "@id": "/hydra/video/183112507.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Chris Busse",
+            "@id": "/hydra/video/183112508.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Jerome Louvel",
+            "@id": "/hydra/video/183112669.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Roman Hotsiy",
+            "@id": "/hydra/video/183112509.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Jonathan Wagner \\ FiveInFive",
+            "@id": "/hydra/video/183118299.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Ronnie Mitra \\ FiveInFive",
+            "@id": "/hydra/video/183116319.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Tim Dietrich",
+            "@id": "/hydra/video/183468727.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Eric Oestrich \\ FiveInFive",
+            "@id": "/hydra/video/183468726.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2016 \\ Chris White \\ FiveInFive",
+            "@id": "/hydra/video/183468729.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest \\ Dave Goldberg \\ FiveInFive",
+            "@id": "/hydra/video/183468731.jsonld"
+        }
+    ],
+    "view": {
+        "@id": "/hydra/videos/7.jsonld",
+        "@type": "hydra:PartialCollectionView",
+        "first": "/hydra/videos/1.jsonld",
+        "last": "/hydra/videos/16.jsonld",
+        "previous": "/hydra/videos/6.jsonld",
+        "next": "/hydra/videos/8.jsonld"
+    },
+    "@context": [
+        {
+            "hydra": "http://www.w3.org/ns/hydra/core#",
+            "member": "hydra:member",
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
+        }
+    ]
+}

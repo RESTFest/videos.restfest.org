@@ -1,0 +1,258 @@
+{
+    "@id": "/hydra/videos.jsonld",
+    "@type": "hydra:Collection",
+    "hydra:totalItems": 320,
+    "member": [
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Ronnie Mitra \\ FiveInFive",
+            "@id": "/hydra/video/49613733.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Carol Nichols \\ FiveInFive",
+            "@id": "/hydra/video/49613736.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Sam Ramji",
+            "@id": "/hydra/video/49609651.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Keith Casey \\ FiveInFive",
+            "@id": "/hydra/video/49613738.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Joe Kaziukénas \\ FiveInFive",
+            "@id": "/hydra/video/49613742.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Larry Staton \\ FiveInFive",
+            "@id": "/hydra/video/49613740.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Eric Girard \\ FiveInFive",
+            "@id": "/hydra/video/49614128.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Todd Fredrich \\ FiveInFive",
+            "@id": "/hydra/video/49614129.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Drewz Lau \\ FiveInFive",
+            "@id": "/hydra/video/49614131.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Ryan McAllen \\ FiveInFive",
+            "@id": "/hydra/video/49614130.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ John Connolly \\ FiveInFive",
+            "@id": "/hydra/video/49614136.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Vlad Vinogradsky \\ FiveInFive",
+            "@id": "/hydra/video/49614559.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Evgeny Popov \\ FiveInFive",
+            "@id": "/hydra/video/49614562.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Kev Burns \\ FiveInFive II",
+            "@id": "/hydra/video/49614567.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Darryl Miller \\ FiveInFive",
+            "@id": "/hydra/video/49614564.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Benjamin Young \\ FiveInFive",
+            "@id": "/hydra/video/49614573.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2012 \\ Stuart Charlton",
+            "@id": "/hydra/video/50215125.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Promo",
+            "@id": "/hydra/video/64073172.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Tom Brooke \\ FiveInFive",
+            "@id": "/hydra/video/75071900.jsonld"
+        },
+        {
+            "@context": [
+                "/hydra/@context/video.jsonld"
+            ],
+            "@type": [
+                "http://videos.restfest.org/api/Video",
+                "http://schema.org/VideoObject"
+            ],
+            "name": "REST Fest 2013 \\ Larry Staton Jr. \\ FiveInFive",
+            "@id": "/hydra/video/75073292.jsonld"
+        }
+    ],
+    "view": {
+        "@id": "/hydra/videos/15.jsonld",
+        "@type": "hydra:PartialCollectionView",
+        "first": "/hydra/videos/1.jsonld",
+        "last": "/hydra/videos/16.jsonld",
+        "previous": "/hydra/videos/14.jsonld",
+        "next": "/hydra/videos/16.jsonld"
+    },
+    "@context": [
+        {
+            "hydra": "http://www.w3.org/ns/hydra/core#",
+            "member": "hydra:member",
+            "view": "hydra:view",
+            "first": {
+                "@id": "hydra:first",
+                "@type": "@id"
+            },
+            "last": {
+                "@id": "hydra:last",
+                "@type": "@id"
+            },
+            "previous": {
+                "@id": "hydra:previous",
+                "@type": "@id"
+            },
+            "next": {
+                "@id": "hydra:next",
+                "@type": "@id"
+            }
+        }
+    ]
+}

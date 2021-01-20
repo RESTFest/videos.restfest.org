@@ -1,0 +1,505 @@
+{
+  "@id": "http://localhost:4000/hydra/apiDocumentation.jsonld",
+  "@type": "ApiDocumentation",
+  "entrypoint": "http://localhost:4000/hydra/entrypoint.jsonld",
+  "supportedClass": [
+    {
+      "@id": "http://videos.restfest.org/api#EntryPoint",
+      "@type": "Class",
+      "description": "The entrypoint class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The videos collection",
+          "property": {
+            "@id": "http://videos.restfest.org/api#videos",
+            "@type": [
+              "rdf:Property",
+              "Link"
+            ],
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "videos",
+          "writeable": false
+        }
+      ]
+    },
+    {
+      "@id": "http://videos.restfest.org/api/Video",
+      "@type": "Class",
+      "description": "The Video class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The name property",
+          "property": {
+            "@id": "http://schema.org/name",
+            "@type": "rdf:Property",
+            "range": "xsd:string"
+          },
+          "readable": true,
+          "required": false,
+          "title": "name",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The description property",
+          "property": {
+            "@id": "http://schema.org/description",
+            "@type": "rdf:Property",
+            "range": "xsd:string"
+          },
+          "readable": true,
+          "required": false,
+          "title": "description",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The video embed property",
+          "property": {
+            "@id": "http://videos.restfest.org/api/embed",
+            "@type": "rdf:Property",
+            "range": "http://videos.restfest.org/api/Embed"
+          },
+          "readable": true,
+          "required": false,
+          "title": "Vimeo video",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The dateCreated property",
+          "property": {
+            "@id": "http://schema.org/dateCreated",
+            "@type": "rdf:Property",
+            "range": "xsd:dateTime"
+          },
+          "readable": true,
+          "required": false,
+          "title": "dateCreated",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The dateModified property",
+          "property": {
+            "@id": "http://schema.org/dateModified",
+            "@type": "rdf:Property",
+            "range": "xsd:dateTime"
+          },
+          "readable": true,
+          "required": false,
+          "title": "dateModified",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The datePublished property",
+          "property": {
+            "@id": "http://schema.org/datePublished",
+            "@type": "rdf:Property",
+            "range": "xsd:dateTime"
+          },
+          "readable": true,
+          "required": false,
+          "title": "datePublished",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The duration property",
+          "property": {
+            "@id": "http://schema.org/duration",
+            "@type": "rdf:Property",
+            "range": "Resource"
+          },
+          "readable": true,
+          "required": false,
+          "title": "duration",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The width property",
+          "property": {
+            "@id": "http://schema.org/width",
+            "@type": "rdf:Property",
+            "range": "xsd:int"
+          },
+          "readable": true,
+          "required": false,
+          "title": "width",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The height property",
+          "property": {
+            "@id": "http://schema.org/height",
+            "@type": "rdf:Property",
+            "range": "xsd:int"
+          },
+          "readable": true,
+          "required": false,
+          "title": "height",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The pictures property",
+          "property": {
+            "@id": "http://schema.org/pictures",
+            "@type": "rdf:Property",
+            "range": "http://videos.restfest.org/api/Pictures"
+          },
+          "readable": true,
+          "required": false,
+          "title": "pictures",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The license property",
+          "property": {
+            "@id": "http://schema.org/license",
+            "@type": "rdf:Property",
+            "range": "Resource"
+          },
+          "readable": true,
+          "required": false,
+          "title": "license",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The language property",
+          "property": {
+            "@id": "http://schema.org/inLanguage",
+            "@type": "rdf:Property",
+            "range": "xsd:string"
+          },
+          "readable": true,
+          "required": false,
+          "title": "language",
+          "writeable": false
+        }
+      ],
+      "title": "Video"
+    },
+    {
+      "@id": "http://videos.restfest.org/api/Pictures",
+      "@type": "Class",
+      "description": "The Pictures class",
+      "supportedProperty": {
+        "@type": "SupportedProperty",
+        "description": "The sizes property",
+        "property": {
+          "@id": "http://videos.restfest.org/api/sizes",
+          "@type": "rdf:Property",
+          "range": "Resource"
+        },
+        "readable": true,
+        "required": false,
+        "title": "sizes",
+        "writeable": false
+      },
+      "title": "Pictures"
+    },
+    {
+      "@id": "http://videos.restfest.org/api/PictureSize",
+      "@type": "Class",
+      "description": "The Size class",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The width property",
+          "property": {
+            "@id": "http://schema.org/width",
+            "@type": "rdf:Property",
+            "range": "http://schema.org/QuantitativeValue"
+          },
+          "readable": true,
+          "required": false,
+          "title": "width",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The height property",
+          "property": {
+            "@id": "http://schema.org/height",
+            "@type": "rdf:Property",
+            "range": "http://schema.org/QuantitativeValue"
+          },
+          "readable": true,
+          "required": false,
+          "title": "height",
+          "writeable": false
+        }
+      ],
+      "title": "Size"
+    },
+    {
+      "@id": "http://schema.org/QuantitativeValue",
+      "@type": "Class",
+      "description": "The QuantitativeValue class",
+      "title": "QuantitativeValue"
+    },
+    {
+      "@id": "hydra:Collection",
+      "@type": "Class",
+      "description": "A collection of related resources",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The members of this collection",
+          "property": {
+            "@id": "hydra:member",
+            "@type": "rdf:Property",
+            "range": "Resource"
+          },
+          "readable": true,
+          "required": false,
+          "title": "members",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The views of this collection",
+          "property": {
+            "@id": "hydra:view",
+            "@type": "rdf:Property",
+            "range": "Resource"
+          },
+          "readable": true,
+          "required": false,
+          "title": "views",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The number of members of this collection",
+          "property": {
+            "@id": "hydra:totalItems",
+            "@type": "rdf:Property",
+            "range": "xsd:nonNegativeInteger"
+          },
+          "readable": true,
+          "required": false,
+          "title": "totalItems",
+          "writeable": false
+        }
+      ],
+      "title": "Collection"
+    },
+    {
+      "@id": "hydra:Resource",
+      "@type": "Class",
+      "description": "The class of dereferenceable resources.",
+      "title": "Resource"
+    },
+    {
+      "@id": "hydra:PartialCollectionView",
+      "@type": "Class",
+      "description": "A sliced view of a collection (ie. a page)",
+      "supportedProperty": [
+        {
+          "@type": "SupportedProperty",
+          "description": "The next page of this collection",
+          "property": {
+            "@id": "hydra:next",
+            "@type": "rdf:Property",
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "next",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The previous page of this collection",
+          "property": {
+            "@id": "hydra:previous",
+            "@type": "rdf:Property",
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "previous",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The last page of this collection",
+          "property": {
+            "@id": "hydra:last",
+            "@type": "rdf:Property",
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "last",
+          "writeable": false
+        },
+        {
+          "@type": "SupportedProperty",
+          "description": "The first page of this collection",
+          "property": {
+            "@id": "hydra:first",
+            "@type": "rdf:Property",
+            "range": "Collection"
+          },
+          "readable": true,
+          "required": false,
+          "title": "first",
+          "writeable": false
+        }
+      ],
+      "title": "PartialCollectionView"
+    }
+  ],
+  "@context": [
+    {
+      "@base": "http://localhost:54469/"
+    },
+    {
+      "hydra": "http://www.w3.org/ns/hydra/core#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "dc": "http://purl.org/dc/terms/",
+      "cc": "http://creativecommons.org/ns#",
+      "apiDocumentation": "hydra:apiDocumentation",
+      "ApiDocumentation": "hydra:ApiDocumentation",
+      "title": "hydra:title",
+      "description": "hydra:description",
+      "entrypoint": {
+        "@id": "hydra:entrypoint",
+        "@type": "@id"
+      },
+      "supportedClass": {
+        "@id": "hydra:supportedClass",
+        "@type": "@vocab"
+      },
+      "Class": "hydra:Class",
+      "supportedProperty": {
+        "@id": "hydra:supportedProperty",
+        "@type": "@id"
+      },
+      "SupportedProperty": "hydra:SupportedProperty",
+      "property": {
+        "@id": "hydra:property",
+        "@type": "@vocab"
+      },
+      "required": "hydra:required",
+      "readable": "hydra:readable",
+      "writeable": "hydra:writeable",
+      "supportedOperation": {
+        "@id": "hydra:supportedOperation",
+        "@type": "@id"
+      },
+      "Operation": "hydra:Operation",
+      "method": "hydra:method",
+      "expects": {
+        "@id": "hydra:expects",
+        "@type": "@vocab"
+      },
+      "returns": {
+        "@id": "hydra:returns",
+        "@type": "@vocab"
+      },
+      "possibleStatus": {
+        "@id": "hydra:possibleStatus",
+        "@type": "@id"
+      },
+      "Status": "hydra:Status",
+      "statusCode": "hydra:statusCode",
+      "Error": "hydra:Error",
+      "Resource": "hydra:Resource",
+      "operation": "hydra:operation",
+      "Collection": "hydra:Collection",
+      "member": {
+        "@id": "hydra:member",
+        "@type": "@id"
+      },
+      "search": "hydra:search",
+      "freetextQuery": "hydra:freetextQuery",
+      "view": {
+        "@id": "hydra:view",
+        "@type": "@id"
+      },
+      "PartialCollectionView": "hydra:PartialCollectionView",
+      "totalItems": "hydra:totalItems",
+      "first": {
+        "@id": "hydra:first",
+        "@type": "@id"
+      },
+      "last": {
+        "@id": "hydra:last",
+        "@type": "@id"
+      },
+      "next": {
+        "@id": "hydra:next",
+        "@type": "@id"
+      },
+      "previous": {
+        "@id": "hydra:previous",
+        "@type": "@id"
+      },
+      "Link": "hydra:Link",
+      "TemplatedLink": "hydra:TemplatedLink",
+      "IriTemplate": "hydra:IriTemplate",
+      "template": "hydra:template",
+      "Rfc6570Template": "hydra:Rfc6570Template",
+      "variableRepresentation": {
+        "@id": "hydra:variableRepresentation",
+        "@type": "@vocab"
+      },
+      "VariableRepresentation": "hydra:VariableRepresentation",
+      "BasicRepresentation": "hydra:BasicRepresentation",
+      "ExplicitRepresentation": "hydra:ExplicitRepresentation",
+      "mapping": "hydra:mapping",
+      "IriTemplateMapping": "hydra:IriTemplateMapping",
+      "variable": "hydra:variable",
+      "defines": {
+        "@reverse": "rdfs:isDefinedBy"
+      },
+      "comment": "rdfs:comment",
+      "label": "rdfs:label",
+      "preferredPrefix": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+      "cc:license": {
+        "@type": "@id"
+      },
+      "cc:attributionURL": {
+        "@type": "@id"
+      },
+      "domain": {
+        "@id": "rdfs:domain",
+        "@type": "@vocab"
+      },
+      "range": {
+        "@id": "rdfs:range",
+        "@type": "@vocab"
+      },
+      "subClassOf": {
+        "@id": "rdfs:subClassOf",
+        "@type": "@vocab"
+      },
+      "subPropertyOf": {
+        "@id": "rdfs:subPropertyOf",
+        "@type": "@vocab"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso",
+        "@type": "@id"
+      }
+    }
+  ]
+}

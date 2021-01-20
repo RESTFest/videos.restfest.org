@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/hydra/@context/video.jsonld"
+    ],
+    "@type": [
+        "http://videos.restfest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2014 \\ Sean Cribbs",
+    "description": "\"HTTP: The Good Parts\" (Keynote)\n\nREST demands we think about resources, representations, and rich interactions; however, it's easy to forget the substrate upon which our beautiful hypermedia APIs \"rest.\" HTTP has lots of interesting and powerful ways to enhance interaction and efficiency that most applications leave untapped because they focus so much on the act of processing a request, rather than the properties of the resource being requested. Let's look more closely at those HTTP features and then see how you can tap into them more declaratively with Webmachine.\n\nhttp://seancribbs.com/\n\nVIDEO SPONSORED BY LAYER 7 TECHNOLOGIES: layer7tech.com",
+    "duration": 3857,
+    "width": 1280,
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/108913764?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2014 \\ Sean Cribbs\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2014-10-14T15:38:37+00:00",
+    "modified_time": "2018-07-23T13:37:01+00:00",
+    "release_time": "2014-10-14T15:38:37+00:00",
+    "@id": "/hydra/video/108913764.jsonld"
+}

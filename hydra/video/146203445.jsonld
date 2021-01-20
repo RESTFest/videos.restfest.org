@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "/hydra/@context/video.jsonld"
+    ],
+    "@type": [
+        "http://videos.restfest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2015 \\ Bonnie Mattson \\ FiveInFive",
+    "description": "Five In Five Talk\nBonnie Mattson\n19 SEPTEMBER 2015\nVIDEO SPONSORED BY CA TECHNOLOGIES: www.ca.com",
+    "duration": 425,
+    "width": 1280,
+    "language": "en",
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/146203445?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Bonnie Mattson \\ FiveInFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2015-11-19T04:30:43+00:00",
+    "modified_time": "2017-10-02T13:31:32+00:00",
+    "release_time": "2015-11-19T04:30:43+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/video/146203445.jsonld"
+}

@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "/hydra/@context/video.jsonld"
+    ],
+    "@type": [
+        "http://videos.restfest.org/api/Video",
+        "http://schema.org/VideoObject"
+    ],
+    "name": "REST Fest 2014 \\ Mark Foster \\ FiveinFive",
+    "description": "Five In Five Talk\n\"API Design Constraints\"\nMark Foster\n26 SEPTEMBER 2014\n\nVIDEO SPONSORED BY LAYER 7 TECHNOLOGIES: www.layer7tech.com",
+    "duration": 486,
+    "width": 1280,
+    "height": 720,
+    "embed": {
+        "html": "<iframe src=\"https://player.vimeo.com/video/108076470?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2014 \\ Mark Foster \\ FiveinFive\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "badges": {
+            "hdr": false,
+            "live": {
+                "streaming": false,
+                "archived": false
+            },
+            "staff_pick": {
+                "normal": false,
+                "best_of_the_month": false,
+                "best_of_the_year": false,
+                "premiere": false
+            },
+            "vod": false,
+            "weekend_challenge": false
+        }
+    },
+    "created_time": "2014-10-06T00:39:57+00:00",
+    "modified_time": "2018-08-10T15:15:17+00:00",
+    "release_time": "2014-10-06T00:39:57+00:00",
+    "license": "by-nc-sa",
+    "@id": "/hydra/video/108076470.jsonld"
+}
