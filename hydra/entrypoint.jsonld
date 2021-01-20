@@ -5,7 +5,7 @@
       "@type": "@id"
     }
   },
-  "@id": "http://localhost:4000/hydra/entrypoint.jsonld",
+  "@id": "/hydra/entrypoint.jsonld",
   "@type": "http://videos.restfest.org/api#EntryPoint",
-  "videos": "http://localhost:4000/hydra/videos/1.jsonld"
+  "videos": "/hydra/videos/1.jsonld"
 }
