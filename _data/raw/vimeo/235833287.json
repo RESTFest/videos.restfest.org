@@ -8,7 +8,7 @@
   "language": "en",
   "height": 1080,
   "embed": {
-    "html": "<iframe src=\"https://player.vimeo.com/video/235833287?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Adam Kliment \\ &#039;&#039;Subscribe to the API Design Programatically&#039;&#039; \\ REST Fest 2017\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "html": "<iframe src=\"https://player.vimeo.com/video/235833287?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=135039\" width=\"1920\" height=\"1080\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"Adam Kliment \\ &amp;#039;&amp;#039;Subscribe to the API Design Programatically&amp;#039;&amp;#039; \\ REST Fest 2017\"></iframe>",
     "badges": {
       "hdr": false,
       "live": {
@@ -26,7 +26,7 @@
     }
   },
   "created_time": "2017-09-27T23:38:50+00:00",
-  "modified_time": "2018-08-19T16:36:00+00:00",
+  "modified_time": "2020-08-13T06:33:10+00:00",
   "release_time": "2017-09-27T23:38:50+00:00",
   "license": "by-nc-sa",
   "pictures": {
@@ -75,14 +75,9 @@
         "height": 1080,
         "link": "https://i.vimeocdn.com/video/659922490_1920x1080.jpg?r=pad",
         "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659922490_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
-      },
-      {
-        "width": 1280,
-        "height": 720,
-        "link": "https://i.vimeocdn.com/video/659922490_1280x720.jpg?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F659922490_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }
     ],
-    "resource_key": "c0f579073e2eb50a2ef4a77b167464023db26d27"
+    "resource_key": "c0f579073e2eb50a2ef4a77b167464023db26d27",
+    "default_picture": false
   }
 }

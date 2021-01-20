@@ -8,7 +8,7 @@
   "language": "en",
   "height": 720,
   "embed": {
-    "html": "<iframe src=\"https://player.vimeo.com/video/148631733?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" title=\"REST Fest 2015 \\ Eric Oestrich\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+    "html": "<iframe src=\"https://player.vimeo.com/video/148631733?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=135039\" width=\"1280\" height=\"720\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen title=\"REST Fest 2015 \\ Eric Oestrich\"></iframe>",
     "badges": {
       "hdr": false,
       "live": {
@@ -59,10 +59,22 @@
         "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       },
       {
-        "width": 960,
-        "height": 540,
-        "link": "https://i.vimeocdn.com/video/547630519_960x540.jpg?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/547630519_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/547630519_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "link": "https://i.vimeocdn.com/video/547630519_1280x720.jpg?r=pad",
+        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       },
       {
         "width": 1280,
@@ -75,14 +87,9 @@
         "height": 1080,
         "link": "https://i.vimeocdn.com/video/547630519_1920x1080.jpg?r=pad",
         "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
-      },
-      {
-        "width": 1280,
-        "height": 720,
-        "link": "https://i.vimeocdn.com/video/547630519_1280x720.jpg?r=pad",
-        "link_with_play_button": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F547630519_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
       }
     ],
-    "resource_key": "f50be3542f365b8334b437813853bd03ff846f4a"
+    "resource_key": "f50be3542f365b8334b437813853bd03ff846f4a",
+    "default_picture": false
   }
 }
