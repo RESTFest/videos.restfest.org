@@ -17,6 +17,7 @@
   "scripts": {
     "build": "cd lib/semantic/ && gulp build",
     "serve": "bundle exec jekyll serve --incremental",
+    "gather:videos": "node scripts/vimeo.js",
     "represent:videos": "node scripts/representVideos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

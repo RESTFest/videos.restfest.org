@@ -1,14 +1,16 @@
 const fs = require('fs');
 
-const config = require('./vimeo.json');
+const config = require('../vimeo.json');
 
 const Vimeo = require('vimeo').Vimeo;
-const lib = new Vimeo(config.client_id, config.client_secret, config.auth_token);
+const lib = new Vimeo(config.client_id, config.client_secret, config.access_token);
 
 const fields_list = 'uri,name,description,link,duration,width,height,language,'
         + 'embed,created_time,modified_time,release_time,license,pictures';
 
 const channel_ids = [
+  'restfest2019',
+  'restfest2018',
   'restfest2017',
   'restfest2016',
   'restfest2015',
